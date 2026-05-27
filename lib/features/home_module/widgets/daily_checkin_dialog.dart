@@ -29,7 +29,7 @@ class DailyCheckinDialog extends StatelessWidget {
       content: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Assets.icons.coins.svg(
+          Assets.icons.tokens.svg(
             width: AppSize.w60,
             height: AppSize.h60,
             fit: BoxFit.contain,

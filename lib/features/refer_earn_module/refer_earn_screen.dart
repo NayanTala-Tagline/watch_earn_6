@@ -63,7 +63,7 @@ class _ReferEarnScreenState extends State<ReferEarnScreen> {
                   spacing: AppSize.h10,
                   children: [
                     ReferEarnSectionBox(
-                      icon: Assets.icons.trophy.svg(),
+                      icon: Assets.icons.award.svg(),
                       title: context.l10n.referAndEarn,
                       subtitle: isGuest
                           ? context.l10n.linkYourAccountToStartEarning
@@ -75,7 +75,7 @@ class _ReferEarnScreenState extends State<ReferEarnScreen> {
                     _DimmedWhenGuest(
                       isGuest: isGuest,
                       child: ReferEarnSectionBox(
-                        icon: Assets.icons.referEarn.svg(width: AppSize.w24),
+                        icon: Assets.icons.inviteEarn.svg(width: AppSize.w24),
                         title: hasReferred
                             ? context.l10n.referralCodeApplied
                             : context.l10n.enterReferralCode,
@@ -90,7 +90,7 @@ class _ReferEarnScreenState extends State<ReferEarnScreen> {
                     _DimmedWhenGuest(
                       isGuest: isGuest,
                       child: ReferEarnSectionBox(
-                        icon: Assets.icons.referEarn.svg(width: AppSize.w24),
+                        icon: Assets.icons.inviteEarn.svg(width: AppSize.w24),
                         title: hasRated ? context.l10n.thanksForRating : context.l10n.rateUs,
                         subtitle: hasRated
                             ? context.l10n.yourFeedbackMeansWorld
@@ -147,7 +147,7 @@ class _GuestLinkSection extends StatelessWidget {
         Row(
           children: [
             ReferralCodeCard(
-              icon: Assets.icons.copy.svg(width: AppSize.w20),
+              icon: Assets.icons.duplicate.svg(width: AppSize.w20),
               title: context.l10n.linkAccountForCode,
               titleColor: context.themeColors.secondaryGradient4,
               onTap: () {
@@ -209,7 +209,7 @@ class _ShareReferralSection extends StatelessWidget {
         Row(
           children: [
             ReferralCodeCard(
-              icon: Assets.icons.openArrow.svg(width: AppSize.w20),
+              icon: Assets.icons.expandArrow.svg(width: AppSize.w20),
               title: context.l10n.shareYourCodeAndEarn,
               gradient: const LinearGradient(
                 colors: [Color(0xFF424EFE), Color(0xFF9467FF)],
@@ -288,7 +288,7 @@ class _EnterReferralCodeView extends StatelessWidget {
                                   ),
                                 ),
                               )
-                            : Assets.icons.openArrow.svg(width: AppSize.w24),
+                            : Assets.icons.expandArrow.svg(width: AppSize.w24),
                       ),
                     ),
                   ),

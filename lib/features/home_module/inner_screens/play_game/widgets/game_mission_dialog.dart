@@ -119,7 +119,7 @@ class _GameMissionDialogState extends State<_GameMissionDialog>
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Assets.images.missionTrophy.image(
+              Assets.images.missionAward.image(
                 height: AppSize.h80,
                 fit: BoxFit.contain,
               ),
@@ -221,7 +221,7 @@ class _GameMissionDialogState extends State<_GameMissionDialog>
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Assets.icons.coins.svg(
+                    Assets.icons.tokens.svg(
                       width: AppSize.w24,
                       height: AppSize.h24,
                     ),

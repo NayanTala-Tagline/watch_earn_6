@@ -173,7 +173,7 @@ class _Header extends StatelessWidget {
               borderRadius: BorderRadius.circular(AppSize.r12),
             ),
             alignment: Alignment.center,
-            child: Assets.icons.profileIcons.support.svg(
+            child: Assets.icons.profileIcons.help.svg(
               width: AppSize.w24,
               height: AppSize.w24,
             ),

@@ -58,7 +58,7 @@ class LeaderboardPodium extends StatelessWidget {
             child: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Assets.icons.coins.svg(width: AppSize.w12),
+                Assets.icons.tokens.svg(width: AppSize.w12),
                 SizedBox(width: AppSize.w4),
                 Text(
                   coins,
@@ -118,7 +118,7 @@ class LeaderboardPodium extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     if (isFirst)
-                      Assets.icons.winningCap.svg(width: AppSize.w28),
+                      Assets.icons.victoryCap.svg(width: AppSize.w28),
                     Container(
                       width: avatarSize,
                       height: avatarSize,
@@ -136,7 +136,7 @@ class LeaderboardPodium extends StatelessWidget {
                         ],
                       ),
                       alignment: Alignment.center,
-                      child: Assets.navIcons.profile.svg(
+                      child: Assets.navIcons.account.svg(
                         width: avatarSize * 0.5,
                       ),
                     ),

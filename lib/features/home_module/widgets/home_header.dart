@@ -76,7 +76,7 @@ class HomeHeader extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   RotatingIcon(
-                    icon: Assets.icons.coins.svg(width: AppSize.w20, height: AppSize.h20),
+                    icon: Assets.icons.tokens.svg(width: AppSize.w20, height: AppSize.h20),
                   ),
                   SizedBox(width: AppSize.w6),
                   Text(

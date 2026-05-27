@@ -23,21 +23,21 @@ class OnboardingProvider extends ChangeNotifier {
   List<OnboardingData> onboardingList = [
     // Page 1 - Node ID: 3:3
     OnboardingData(
-      image: Assets.images.onboarding1.image(height: AppSize.h240),
+      image: Assets.images.intro1.image(height: AppSize.h240),
       title: rootNavKey.currentContext!.l10n.onboardingOneTitle,
       description: rootNavKey.currentContext!.l10n.onboardingOneDesc,
       buttonText: rootNavKey.currentContext!.l10n.next,
     ),
     // Page 2 - Node ID: 3:76
     OnboardingData(
-      image: Assets.images.onboarding2.image(height: AppSize.h240),
+      image: Assets.images.intro2.image(height: AppSize.h240),
       title: rootNavKey.currentContext!.l10n.onboardingTwoTitle,
       description: rootNavKey.currentContext!.l10n.onboardingTwoDesc,
       buttonText: rootNavKey.currentContext!.l10n.next,
     ),
     // Page 3 - Node ID: 3:127
     OnboardingData(
-      image: Assets.images.onboarding3.image(height: AppSize.h240),
+      image: Assets.images.intro3.image(height: AppSize.h240),
       title: rootNavKey.currentContext!.l10n.onboardingThreeTitle,
       description: rootNavKey.currentContext!.l10n.onboardingThreeDesc,
       buttonText: rootNavKey.currentContext!.l10n.getStarted,

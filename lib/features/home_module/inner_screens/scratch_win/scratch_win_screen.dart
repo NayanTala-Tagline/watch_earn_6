@@ -195,7 +195,7 @@ class _ScratchWinContentState extends State<_ScratchWinContent> {
           key: _scratchKey,
           brushSize: 45,
           threshold: 45,
-          image: Assets.images.spinReward.image(),
+          image: Assets.images.spinPrize.image(),
           onThreshold: () {
             _confettiController.play();
             provider.updateProgress(50.0);
@@ -255,7 +255,7 @@ class _ScratchWinContentState extends State<_ScratchWinContent> {
           child: Row(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Assets.icons.coins.svg(height: AppSize.h20, width: AppSize.w20),
+              Assets.icons.tokens.svg(height: AppSize.h20, width: AppSize.w20),
               SizedBox(width: AppSize.w6),
               Text(
                 '$coins',

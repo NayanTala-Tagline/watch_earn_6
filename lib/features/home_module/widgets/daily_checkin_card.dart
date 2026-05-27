@@ -125,7 +125,7 @@ class DailyCheckinCard extends StatelessWidget {
                   Positioned(
                     top: -AppSize.h20,
                     right: 0,
-                    child: Assets.icons.coins.svg(width: AppSize.w36, height: AppSize.h36, fit: BoxFit.contain),
+                    child: Assets.icons.tokens.svg(width: AppSize.w36, height: AppSize.h36, fit: BoxFit.contain),
                   ),
                 ],
               ),

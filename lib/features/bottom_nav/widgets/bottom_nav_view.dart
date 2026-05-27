@@ -63,13 +63,13 @@ class BottomNavView extends StatelessWidget {
             labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
             destinations: [
               NavigationDestination(
-                icon: Opacity(opacity: 0.7, child: Assets.navIcons.home.svg()),
-                selectedIcon: _applyGradient(Assets.navIcons.home.svg(), context),
+                icon: Opacity(opacity: 0.7, child: Assets.navIcons.house.svg()),
+                selectedIcon: _applyGradient(Assets.navIcons.house.svg(), context),
                 label: 'Home',
               ),
               NavigationDestination(
-                icon: Assets.navIcons.rank.svg(),
-                selectedIcon: _applyGradient(Assets.navIcons.rank.svg(), context),
+                icon: Assets.navIcons.standing.svg(),
+                selectedIcon: _applyGradient(Assets.navIcons.standing.svg(), context),
                 label: 'Rank',
               ),
               GestureDetector(
@@ -90,17 +90,17 @@ class BottomNavView extends StatelessWidget {
                     ),
                     boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: 0.3), blurRadius: 10)],
                   ),
-                  child: Center(child: Assets.icons.withdraw.svg(color: Colors.white, height: 22)),
+                  child: Center(child: Assets.icons.cashout.svg(color: Colors.white, height: 22)),
                 ),
               ),
               NavigationDestination(
-                icon: Assets.navIcons.rewards.svg(),
-                selectedIcon: _applyGradient(Assets.navIcons.rewards.svg(), context),
+                icon: Assets.navIcons.prizes.svg(),
+                selectedIcon: _applyGradient(Assets.navIcons.prizes.svg(), context),
                 label: 'Rewards',
               ),
               NavigationDestination(
-                icon: Assets.navIcons.profile.svg(),
-                selectedIcon: _applyGradient(Assets.navIcons.profile.svg(), context),
+                icon: Assets.navIcons.account.svg(),
+                selectedIcon: _applyGradient(Assets.navIcons.account.svg(), context),
                 label: 'Profile',
               ),
             ],

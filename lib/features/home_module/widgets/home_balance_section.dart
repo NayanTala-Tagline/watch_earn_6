@@ -93,7 +93,7 @@ class HomeBalanceSection extends StatelessWidget {
                     ),
                   ),
                   // Money bag image
-                  Assets.images.spinReward.image(width: AppSize.w100, height: AppSize.h100, fit: BoxFit.contain),
+                  Assets.images.spinPrize.image(width: AppSize.w100, height: AppSize.h100, fit: BoxFit.contain),
                 ],
               ),
               SizedBox(height: AppSize.h20),
@@ -103,7 +103,7 @@ class HomeBalanceSection extends StatelessWidget {
                     Expanded(
                       child: _BalanceActionButton(
                         label: leftBtnLabel,
-                        icon: Assets.icons.withdraw.svg(
+                        icon: Assets.icons.cashout.svg(
                           width: AppSize.w20,
                           height: AppSize.h20,
                           colorFilter: const ColorFilter.mode(Colors.white, BlendMode.srcIn),
@@ -124,7 +124,7 @@ class HomeBalanceSection extends StatelessWidget {
                     Expanded(
                       child: _BalanceActionButton(
                         label: rightBtnLabel,
-                        icon: Assets.icons.trophy.svg(width: AppSize.w20, height: AppSize.h20),
+                        icon: Assets.icons.award.svg(width: AppSize.w20, height: AppSize.h20),
                         gradient: LinearGradient(
                           colors: [
                             context.themeColors.primaryGradient2.withValues(alpha: 0.7),

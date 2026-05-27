@@ -31,7 +31,7 @@ class _LoginBody extends StatelessWidget {
     return Scaffold(
       backgroundColor: colors.backgroundColor,
       body: Container(
-        decoration: BoxDecoration(image: DecorationImage(image: AssetImage(Assets.images.onboarding2.path))),
+        decoration: BoxDecoration(image: DecorationImage(image: AssetImage(Assets.images.intro2.path))),
         child: SafeArea(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: AppSize.w24),
@@ -49,7 +49,7 @@ class _LoginBody extends StatelessWidget {
                       borderRadius: BorderRadius.circular(AppSize.r24),
                       border: Border.all(color: colors.secondaryGradient1.withValues(alpha: 0.4), width: 1.5),
 
-                      image: DecorationImage(image: AssetImage(Assets.images.spinReward.path), fit: BoxFit.cover),
+                      image: DecorationImage(image: AssetImage(Assets.images.spinPrize.path), fit: BoxFit.cover),
                     ),
                   ),
                 ),

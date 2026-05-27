@@ -28,7 +28,7 @@ class Onboarding2 extends StatelessWidget {
             body: Stack(
               fit: StackFit.expand,
               children: [
-                Assets.images.onboarding2.image(fit: BoxFit.cover),
+                Assets.images.intro2.image(fit: BoxFit.cover),
                 SafeArea(
                   child: Padding(
                     padding: EdgeInsets.symmetric(horizontal: AppSize.w20),

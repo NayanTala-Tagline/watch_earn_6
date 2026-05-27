@@ -119,7 +119,7 @@ class _SpinWheelContentState extends State<_SpinWheelContent> {
           child: Row(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Assets.icons.coins.svg(height: AppSize.h20, width: AppSize.w20),
+              Assets.icons.tokens.svg(height: AppSize.h20, width: AppSize.w20),
               SizedBox(width: AppSize.w6),
               Text(
                 '$coins',
@@ -236,7 +236,7 @@ class _SpinWheelContentState extends State<_SpinWheelContent> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Assets.icons.coins.svg(width: AppSize.w28, height: AppSize.h28),
+            Assets.icons.tokens.svg(width: AppSize.w28, height: AppSize.h28),
             SizedBox(width: AppSize.w8),
             Text(
               '+$winValue Coins',

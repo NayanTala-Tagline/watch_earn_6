@@ -142,7 +142,7 @@ class _MathQuizContentState extends State<_MathQuizContent> {
         const Spacer(),
         Row(
           children: [
-            Assets.icons.coins.svg(width: AppSize.w16, height: AppSize.h16),
+            Assets.icons.tokens.svg(width: AppSize.w16, height: AppSize.h16),
             SizedBox(width: AppSize.w4),
             Text(
               '+${provider.sessionCoins}',
@@ -166,7 +166,7 @@ class _MathQuizContentState extends State<_MathQuizContent> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Assets.icons.coins.svg(width: AppSize.w80, height: AppSize.h80),
+            Assets.icons.tokens.svg(width: AppSize.w80, height: AppSize.h80),
             SizedBox(height: AppSize.h24),
             Text(
               'Quiz Complete!',
@@ -241,7 +241,7 @@ class _MathQuizContentState extends State<_MathQuizContent> {
           child: Row(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Assets.icons.coins.svg(height: AppSize.h20, width: AppSize.w20),
+              Assets.icons.tokens.svg(height: AppSize.h20, width: AppSize.w20),
               SizedBox(width: AppSize.w6),
               Text(
                 '$coins',
@@ -270,7 +270,7 @@ class _MathQuizContentState extends State<_MathQuizContent> {
       ),
       padding: EdgeInsets.all(AppSize.h16),
       child: Center(
-        child: Assets.icons.quizMaster.svg(width: AppSize.w40, height: AppSize.h40),
+        child: Assets.icons.quizChampion.svg(width: AppSize.w40, height: AppSize.h40),
       ),
     );
   }

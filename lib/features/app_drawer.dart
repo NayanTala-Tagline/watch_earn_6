@@ -49,14 +49,14 @@ class AppDrawer extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         _MenuItem(
-                          icon: Assets.navIcons.home.svg(
+                          icon: Assets.navIcons.house.svg(
                             width: AppSize.w24,
                           ),
                           title: context.l10n.home,
                           onTap: () => context.pop(),
                         ),
                         _MenuItem(
-                          icon: Assets.navIcons.profile.svg(
+                          icon: Assets.navIcons.account.svg(
                             width: AppSize.w24,
                           ),
                           title: context.l10n.myProfile,
@@ -66,7 +66,7 @@ class AppDrawer extends StatelessWidget {
                           },
                         ),
                         // _MenuItem(
-                        //   icon: Assets.icons.trophy.svg(
+                        //   icon: Assets.icons.award.svg(
                         //     width: AppSize.w24,
                         //   ),
                         //   title: 'Achievement',
@@ -76,7 +76,7 @@ class AppDrawer extends StatelessWidget {
                         //   },
                         // ),
                         _MenuItem(
-                          icon: Assets.icons.leaderboard
+                          icon: Assets.icons.rankings
                               .svg(width: AppSize.w24),
                           title: context.l10n.leaderboard,
                           onTap: () {
@@ -85,7 +85,7 @@ class AppDrawer extends StatelessWidget {
                           },
                         ),
                         _MenuItem(
-                          icon: Assets.icons.referEarn.svg(
+                          icon: Assets.icons.inviteEarn.svg(
                             width: AppSize.w24,
                           ),
                           title: context.l10n.referAndEarn,
@@ -95,7 +95,7 @@ class AppDrawer extends StatelessWidget {
                           },
                         ),
                         _MenuItem(
-                          icon: Assets.icons.withdraw.svg(
+                          icon: Assets.icons.cashout.svg(
                             width: AppSize.w24,
                           ),
                           title: context.l10n.myWallet,
@@ -121,7 +121,7 @@ class AppDrawer extends StatelessWidget {
                           ),
                         ),
                         _MenuItem(
-                          icon: Assets.icons.profileIcons.sound.svg(width: AppSize.w24),
+                          icon: Assets.icons.profileIcons.audio.svg(width: AppSize.w24),
                           title: context.l10n.settings,
                           onTap: () {
                             context.pop();
@@ -129,7 +129,7 @@ class AppDrawer extends StatelessWidget {
                           },
                         ),
                         _MenuItem(
-                          icon: Assets.icons.profileIcons.privacy.svg(width: AppSize.w24),
+                          icon: Assets.icons.profileIcons.confidential.svg(width: AppSize.w24),
                           title: context.l10n.privacyPolicy,
                           onTap: () {
                             context.pop();
@@ -137,7 +137,7 @@ class AppDrawer extends StatelessWidget {
                           },
                         ),
                         _MenuItem(
-                          icon: Assets.icons.profileIcons.terms.svg(width: AppSize.w24),
+                          icon: Assets.icons.profileIcons.conditions.svg(width: AppSize.w24),
                           title: context.l10n.termsOfService,
                           onTap: () {
                             context.pop();
@@ -145,7 +145,7 @@ class AppDrawer extends StatelessWidget {
                           },
                         ),
                         _MenuItem(
-                          icon: Assets.icons.profileIcons.support.svg(
+                          icon: Assets.icons.profileIcons.help.svg(
                             width: AppSize.w24,
                           ),
                           title: context.l10n.support,
@@ -288,7 +288,7 @@ class AppDrawer extends StatelessWidget {
             ),
             child: Padding(
                 padding: EdgeInsets.symmetric(horizontal: AppSize.w10, vertical: AppSize.h10),
-                child: Assets.icons.profileIcons.signout.svg(),
+                child: Assets.icons.profileIcons.logout.svg(),
               ),
             ),
           title: context.l10n.signOut,
@@ -415,7 +415,7 @@ class AppDrawer extends StatelessWidget {
                 shape: BoxShape.circle,
               ),
               alignment: Alignment.center,
-              child: Assets.icons.profileIcons.signout.svg(
+              child: Assets.icons.profileIcons.logout.svg(
                 width: AppSize.w28,
                 colorFilter: ColorFilter.mode(
                   context.themeTextColors.textColor,

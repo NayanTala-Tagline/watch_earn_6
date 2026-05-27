@@ -106,7 +106,7 @@ class LeaderboardListTile extends StatelessWidget {
              ),
              child: Row(
                children: [
-                 Assets.icons.coins.svg(width: AppSize.w14),
+                 Assets.icons.tokens.svg(width: AppSize.w14),
                  SizedBox(width: AppSize.w6),
                  Text(
                    coins,

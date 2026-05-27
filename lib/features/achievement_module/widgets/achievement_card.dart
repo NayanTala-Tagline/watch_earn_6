@@ -39,7 +39,7 @@ class AchievementCard extends StatelessWidget {
         child: Row(
           children: [
           // Icon Container with Neon Glow
-          Assets.icons.trophy.svg(height: AppSize.h40,width: AppSize.w40),
+          Assets.icons.award.svg(height: AppSize.h40,width: AppSize.w40),
           
           SizedBox(width: AppSize.w16),
           
@@ -76,7 +76,7 @@ class AchievementCard extends StatelessWidget {
             child: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Assets.icons.coins.svg(width: AppSize.w16),
+                Assets.icons.tokens.svg(width: AppSize.w16),
                 SizedBox(width: AppSize.w4),
                 Text(
                   '+${achievement.reward}',

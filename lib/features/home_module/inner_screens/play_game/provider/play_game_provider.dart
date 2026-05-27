@@ -31,7 +31,7 @@ class PlayGameProvider extends ChangeNotifier {
       title: 'Running Ninja',
       reward: RemoteConfigService.instance.playGameRewardCoins,
       gradientColors: [const Color(0xFFB116FF), const Color(0xFF66166D)],
-      icon: Assets.playGameIcons.spaceInvader.image(
+      icon: Assets.playGameIcons.spaceIntruder.image(
         height: AppSize.h40,
         width: AppSize.w40
       ),
@@ -40,7 +40,7 @@ class PlayGameProvider extends ChangeNotifier {
       title: 'Go Panda',
       reward: RemoteConfigService.instance.playGameRewardCoins,
       gradientColors: [const Color(0xFF246FB4), const Color(0xFF1B2C8E)],
-      icon: Assets.playGameIcons.bubbleShooter.image(
+      icon: Assets.playGameIcons.bubbleBlaster.image(
           height: AppSize.h40,
           width: AppSize.w40
       ),
@@ -49,7 +49,7 @@ class PlayGameProvider extends ChangeNotifier {
       title: 'Slope Run',
       reward: RemoteConfigService.instance.playGameRewardCoins,
       gradientColors: [const Color(0xFF00C6A5), const Color(0xFF003D3D)],
-      icon: Assets.playGameIcons.stackTower.image(
+      icon: Assets.playGameIcons.pileTower.image(
           height: AppSize.h40,
           width: AppSize.w40
       ),
@@ -58,7 +58,7 @@ class PlayGameProvider extends ChangeNotifier {
       title: 'Archer Hero',
       reward: RemoteConfigService.instance.playGameRewardCoins,
       gradientColors: [const Color(0xFFFFB900), const Color(0xFF5D3F00)],
-      icon: Assets.playGameIcons.puzzleGame.image(
+      icon: Assets.playGameIcons.riddleGame.image(
           height: AppSize.h40,
           width: AppSize.w40
       ),
@@ -67,7 +67,7 @@ class PlayGameProvider extends ChangeNotifier {
       title: 'Multitrack Drifting',
       reward: RemoteConfigService.instance.playGameRewardCoins,
       gradientColors: [const Color(0xFFFF1D1D), const Color(0xFF5D0000)],
-      icon: Assets.playGameIcons.carRacing.image(
+      icon: Assets.playGameIcons.autoRacing.image(
           height: AppSize.h40,
           width: AppSize.w40
       ),

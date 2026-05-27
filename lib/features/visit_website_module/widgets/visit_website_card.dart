@@ -84,7 +84,7 @@ class VisitWebsiteCard extends StatelessWidget {
                           child: Row(
                             mainAxisSize: MainAxisSize.min,
                             children: [
-                              Assets.icons.coins.svg(width: AppSize.w14, height: AppSize.w14),
+                              Assets.icons.tokens.svg(width: AppSize.w14, height: AppSize.w14),
                               SizedBox(width: AppSize.w6),
                               Text(
                                 '+$reward',
@@ -122,7 +122,7 @@ class VisitWebsiteCard extends StatelessWidget {
                 ),
               ),
               
-             Assets.icons.openArrow.svg(
+             Assets.icons.expandArrow.svg(
                height: AppSize.h25,
                width: AppSize.w24
              )

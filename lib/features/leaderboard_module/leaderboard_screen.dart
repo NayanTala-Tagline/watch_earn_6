@@ -116,7 +116,7 @@ class _LeaderBoardScreenState extends State<LeaderBoardScreen> {
                                       Row(
                                         mainAxisSize: MainAxisSize.min,
                                         children: [
-                                          Assets.icons.trophy.svg(
+                                          Assets.icons.award.svg(
                                             width: AppSize.w26,
                                             height: AppSize.h26,
                                           ),

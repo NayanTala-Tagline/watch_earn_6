@@ -65,7 +65,7 @@ class _SettingScreenState extends State<SettingScreen> {
                         child: Column(
                           children: [
                             SettingTile(
-                              icon: Assets.icons.profileIcons.sound.svg(),
+                              icon: Assets.icons.profileIcons.audio.svg(),
                               title: context.l10n.soundEffects,
                               subtitle: context.l10n.appSounds,
                               trailing: CustomSwitch(
@@ -86,7 +86,7 @@ class _SettingScreenState extends State<SettingScreen> {
                               endIndent: AppSize.w16,
                             ),
                             SettingTile(
-                              icon: Assets.icons.profileIcons.feedback.svg(),
+                              icon: Assets.icons.profileIcons.review.svg(),
                               title: context.l10n.hapticFeedback,
                               subtitle: context.l10n.vibrationOnTap,
                               trailing: CustomSwitch(
@@ -125,10 +125,10 @@ class _SettingScreenState extends State<SettingScreen> {
                           child: Column(
                             children: [
                               SettingTile(
-                                icon: Assets.icons.profileIcons.sound.svg(),
+                                icon: Assets.icons.profileIcons.audio.svg(),
                                 title: context.l10n.language,
                                 subtitle: context.watch<LanguageProvider>().selectedLanguageName,
-                                trailing: Assets.icons.openArrow.svg(
+                                trailing: Assets.icons.expandArrow.svg(
                                   height: AppSize.h20,
                                   width: AppSize.w20
                                 ),

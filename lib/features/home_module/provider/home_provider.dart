@@ -135,25 +135,25 @@ class HomeProvider extends ChangeNotifier {
       title: 'Quiz',
       subtitle: '& Earn',
       reward: RemoteConfigService.instance.quizPerQuestionReward * MathQuizProvider.totalQuestions,
-      icon: Assets.icons.quizMaster,
+      icon: Assets.icons.quizChampion,
     ),
     EarnRewardItem(
       title: 'Games',
       subtitle: 'Play Games',
       reward: RemoteConfigService.instance.playGameRewardCoins,
-      icon: Assets.icons.gameZone,
+      icon: Assets.icons.gameArena,
     ),
     EarnRewardItem(
       title: 'Scratch',
       subtitle: '& Reveal',
       reward: RemoteConfigService.instance.scrachMaxReward,
-      icon: Assets.icons.scratchCard,
+      icon: Assets.icons.scratchTicket,
     ),
     EarnRewardItem(
       title: 'Spin',
       subtitle: 'Spin & Win',
       reward: RemoteConfigService.instance.spinBoardRewardValues.reduce((a, b) => a > b ? a : b),
-      icon: Assets.icons.spinWheel,
+      icon: Assets.icons.rotatingWheel,
     ),
   ];
 
@@ -164,7 +164,7 @@ class HomeProvider extends ChangeNotifier {
         title: 'Invite Friends',
         subtitle: 'Get ${RemoteConfigService.instance.inviteFriendReward} Coins per Friend',
         reward: RemoteConfigService.instance.inviteFriendReward,
-        icon: Assets.icons.referEarn,
+        icon: Assets.icons.inviteEarn,
         color: themeColors.primaryGradient1,
         colors: [themeColors.primaryGradient2, themeColors.primary],
         onTap: () {
@@ -176,7 +176,7 @@ class HomeProvider extends ChangeNotifier {
         title: 'Web Visits',
         subtitle: 'Visit to Earn ${RemoteConfigService.instance.websiteRewardCoins} Coins',
         reward: RemoteConfigService.instance.websiteRewardCoins,
-        icon: Assets.icons.visitWeb,
+        icon: Assets.icons.browseWeb,
         color: themeColors.secondaryGradient4,
         onTap: () {
           final ctx = rootNavKey.currentContext!;

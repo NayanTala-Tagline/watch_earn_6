@@ -54,7 +54,7 @@ class ReferralCodeCard extends StatelessWidget {
                     child: icon,
                   ),
 
-                  Assets.icons.openArrow.svg(width: AppSize.w18),
+                  Assets.icons.expandArrow.svg(width: AppSize.w18),
                 ],
               ),
 

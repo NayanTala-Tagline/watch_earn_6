@@ -25,7 +25,7 @@ class HomeBottomActions extends StatelessWidget {
                   accent: context.themeColors.primary,
                   child: _ActionCard(
                     title: context.l10n.leaderboard,
-                    icon: Assets.icons.leaderboard,
+                    icon: Assets.icons.rankings,
                     onTap: () =>
                         NavigationHelper().navigateWithAdCheck(context, () => context.goNamed(AppRoutes.leaderboard)),
                     color: context.themeColors.primary,

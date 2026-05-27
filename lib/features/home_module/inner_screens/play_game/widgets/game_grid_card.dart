@@ -49,7 +49,7 @@ class GameGridCard extends StatelessWidget {
                     alignment: Alignment.center,
                     child:
                         game.icon ??
-                        Assets.navIcons.home.svg(
+                        Assets.navIcons.house.svg(
                           width: AppSize.w28,
                         ),
                   ),
@@ -71,7 +71,7 @@ class GameGridCard extends StatelessWidget {
 
                   Row(
                     children: [
-                      Assets.icons.coins.svg(width: AppSize.w14),
+                      Assets.icons.tokens.svg(width: AppSize.w14),
                       SizedBox(width: AppSize.w4),
                       Text(
                         '+${game.reward}',
@@ -109,7 +109,7 @@ class GameGridCard extends StatelessWidget {
           Positioned(
             top: AppSize.h12,
             right: AppSize.w12,
-            child: Assets.icons.openArrow.svg(),
+            child: Assets.icons.expandArrow.svg(),
           ),
         ],
       ),

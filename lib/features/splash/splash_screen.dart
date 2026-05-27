@@ -25,9 +25,9 @@
 
 //     Future.delayed(Duration.zero, () async {
 //       if (context.mounted) {
-//         await precacheImage(Assets.images.onboarding1.provider(), context);
-//         await precacheImage(Assets.images.onboarding2.provider(), context);
-//         await precacheImage(Assets.images.onboarding3.provider(), context);
+//         await precacheImage(Assets.images.intro1.provider(), context);
+//         await precacheImage(Assets.images.intro2.provider(), context);
+//         await precacheImage(Assets.images.intro3.provider(), context);
 //       }
 //     });
 

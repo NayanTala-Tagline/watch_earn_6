@@ -78,7 +78,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.googleWallet,
             "Google Wallet",
-            Assets.cashWithdrawIcons.icGooglewallet.image(width: AppSize.w24),
+            Assets.cashWithdrawIcons.googlewallet.image(width: AppSize.w24),
             Color(0xFF3a7af2),
             FormData(
               rootNavKey.currentContext!.l10n.googlePayNumber,
@@ -113,7 +113,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.alipay,
             "Alipay",
-            Assets.cashWithdrawIcons.icAlipay.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.alipay.svg(width: AppSize.w24),
             Color(0xFF166bff),
             FormData(
               rootNavKey.currentContext!.l10n.alipayId,
@@ -256,7 +256,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.revolut,
             "Revolut",
-            Assets.cashWithdrawIcons.icRevolut.image(width: AppSize.w24),
+            Assets.cashWithdrawIcons.revolut.image(width: AppSize.w24),
             Color(0xFF0066FF),
             FormData(
               rootNavKey.currentContext!.l10n.revtagIban,
@@ -267,7 +267,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.monzo,
             "Monzo",
-            Assets.cashWithdrawIcons.icMonzo.image(width: AppSize.w24),
+            Assets.cashWithdrawIcons.monzo.image(width: AppSize.w24),
             Color(0xFF1A2E5A),
             FormData(
               rootNavKey.currentContext!.l10n.accountSortcode,
@@ -278,7 +278,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.n26,
             "N26",
-            Assets.cashWithdrawIcons.icN26.image(width: AppSize.w24),
+            Assets.cashWithdrawIcons.n26.image(width: AppSize.w24),
             Color(0xFF00C1B2),
             FormData(
               rootNavKey.currentContext!.l10n.iban,
@@ -300,7 +300,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.starlingBank,
             "Starling Bank",
-            Assets.cashWithdrawIcons.icStarlingbank.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.starlingbank.svg(width: AppSize.w24),
             Color(0xFF00b9aa),
             FormData(
               rootNavKey.currentContext!.l10n.accountNumber,
@@ -311,7 +311,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.ideal,
             "iDEAL",
-            Assets.cashWithdrawIcons.icIdeal.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.ideal.svg(width: AppSize.w24),
             Color(0xFFFFFFFF),
             FormData(
               rootNavKey.currentContext!.l10n.iban,
@@ -322,7 +322,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.tikkie,
             "Tikkie",
-            Assets.cashWithdrawIcons.icTikkie.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.tikkie.svg(width: AppSize.w24),
             Color(0xFFff5f00),
             FormData(
               rootNavKey.currentContext!.l10n.tikkieLinkNumber,
@@ -333,7 +333,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.vipps,
             "Vipps",
-            Assets.cashWithdrawIcons.icVipps.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.vipps.svg(width: AppSize.w24),
             Color(0xFFff5020),
             FormData(
               rootNavKey.currentContext!.l10n.vippsNumber,
@@ -344,7 +344,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.mobilePay,
             "MobilePay",
-            Assets.cashWithdrawIcons.icMobilepay.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.mobilepay.svg(width: AppSize.w24),
             Color(0xFF00509b),
             FormData(
               rootNavKey.currentContext!.l10n.mobilepayNumber,
@@ -355,7 +355,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.swish,
             "Swish",
-            Assets.cashWithdrawIcons.icSwish.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.swish.svg(width: AppSize.w24),
             Color(0xFF02ab81),
             FormData(
               rootNavKey.currentContext!.l10n.swishNumber,
@@ -366,7 +366,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.blik,
             "BLIK",
-            Assets.cashWithdrawIcons.icBlik.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.blik.svg(width: AppSize.w24),
             Color(0xFFfc342a),
             FormData(
               rootNavKey.currentContext!.l10n.blikCode,
@@ -377,7 +377,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.lydia,
             "Lydia",
-            Assets.cashWithdrawIcons.icLydia.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.lydia.svg(width: AppSize.w24),
             Color(0xFF612670),
             FormData(
               rootNavKey.currentContext!.l10n.lydiaNumber,
@@ -388,7 +388,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.paylib,
             "PayLib",
-            Assets.cashWithdrawIcons.icPaylib.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.paylib.svg(width: AppSize.w24),
             Color(0xFF3c4985),
             FormData(
               rootNavKey.currentContext!.l10n.paylibNumber,
@@ -399,7 +399,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.twint,
             "Twint",
-            Assets.cashWithdrawIcons.icTwint.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.twint.svg(width: AppSize.w24),
             Color(0xFF652786),
             FormData(
               rootNavKey.currentContext!.l10n.twintNumber,
@@ -410,7 +410,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.satispay,
             "Satispay",
-            Assets.cashWithdrawIcons.icSatispay.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.satispay.svg(width: AppSize.w24),
             Color(0xFFff5035),
             FormData(
               rootNavKey.currentContext!.l10n.satispayNumber,
@@ -421,7 +421,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.iyzico,
             "iyzico",
-            Assets.cashWithdrawIcons.icIyzico.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.iyzico.svg(width: AppSize.w24),
             Color(0xFF2882ff),
             FormData(
               rootNavKey.currentContext!.l10n.accountId,
@@ -434,7 +434,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.mpesa,
             "M-Pesa",
-            Assets.cashWithdrawIcons.icMpesa.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.mpesa.svg(width: AppSize.w24),
             Color(0xFF009c46),
             FormData(
               rootNavKey.currentContext!.l10n.mpesaNumber,
@@ -445,7 +445,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.opay,
             "OPay",
-            Assets.cashWithdrawIcons.icOpay.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.opay.svg(width: AppSize.w24),
             Color(0xFF1DC45A),
             FormData(
               rootNavKey.currentContext!.l10n.opayNumber,
@@ -456,7 +456,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.orangeMoney,
             "Orange Money",
-            Assets.cashWithdrawIcons.icOrangemoney.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.orangemoney.svg(width: AppSize.w24),
             Color(0xFFFF7900),
             FormData(
               rootNavKey.currentContext!.l10n.orangeMoneyNumber,
@@ -467,7 +467,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.mtnMobile,
             "MTN Mobile",
-            Assets.cashWithdrawIcons.icMynmobile.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.mynmobile.svg(width: AppSize.w24),
             Color(0xFFFFCC00),
             FormData(
               rootNavKey.currentContext!.l10n.mtnMobileNumber,
@@ -478,7 +478,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.chipperCash,
             "Chipper Cash",
-            Assets.cashWithdrawIcons.icChippercash.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.chippercash.svg(width: AppSize.w24),
             Color(0xFF0066FF),
             FormData(
               rootNavKey.currentContext!.l10n.chipperTag,
@@ -502,7 +502,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.baxi,
             "Baxi",
-            Assets.cashWithdrawIcons.icBaxi.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.baxi.svg(width: AppSize.w24),
             Color(0xFF007BFF),
             FormData(
               rootNavKey.currentContext!.l10n.baxiAccount,
@@ -513,7 +513,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.capitecPay,
             "Capitec Pay",
-            Assets.cashWithdrawIcons.icCapitecpay.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.capitecpay.svg(width: AppSize.w24),
             Color(0xFF00B14F),
             FormData(
               rootNavKey.currentContext!.l10n.idPhone,
@@ -524,7 +524,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.snapscan,
             "SnapScan",
-            Assets.cashWithdrawIcons.icSnapscan.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.snapscan.svg(width: AppSize.w24),
             Color(0xFF0033A0),
             FormData(
               rootNavKey.currentContext!.l10n.snapscanId,
@@ -535,7 +535,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.natsWallet,
             "NatsWallet",
-            Assets.cashWithdrawIcons.icNasswallet.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.nasswallet.svg(width: AppSize.w24),
             Color(0xFFF5A623),
             FormData(
               rootNavKey.currentContext!.l10n.cardAccount,
@@ -546,7 +546,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.onafriq,
             "Onafriq",
-            Assets.cashWithdrawIcons.icOnafriq.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.onafriq.svg(width: AppSize.w24),
             Color(0xFFE53935),
             FormData(
               rootNavKey.currentContext!.l10n.userId,
@@ -559,7 +559,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.stcPay,
             "STC Pay",
-            Assets.cashWithdrawIcons.icStcpay.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.stcpay.svg(width: AppSize.w24),
             Color(0xFF6A1B9A),
             FormData(
               rootNavKey.currentContext!.l10n.stcPayNumber,
@@ -570,7 +570,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.vodafoneCash,
             "Vodafone Cash",
-            Assets.cashWithdrawIcons.icVodafonecash.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.vodafonecash.svg(width: AppSize.w24),
             Color(0xFFE60000),
             FormData(
               rootNavKey.currentContext!.l10n.vodafoneNumber,
@@ -581,7 +581,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.careemPay,
             "Careem Pay",
-            Assets.cashWithdrawIcons.icCareempay.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.careempay.svg(width: AppSize.w24),
             Color(0xFF00C853),
             FormData(
               rootNavKey.currentContext!.l10n.careemNumber,
@@ -594,7 +594,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.instapay,
             "InstaPay",
-            Assets.cashWithdrawIcons.icInstapay.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.instapay.svg(width: AppSize.w24),
             Color(0xFF0070BA),
             FormData(
               rootNavKey.currentContext!.l10n.instapayAddress,
@@ -605,7 +605,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.myfawry,
             "myfawry",
-            Assets.cashWithdrawIcons.icMyfawry.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.myfawry.svg(width: AppSize.w24),
             Color(0xFFF9B233),
             FormData(
               rootNavKey.currentContext!.l10n.fawryNumber,
@@ -616,7 +616,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.benefitPay,
             "BenefitPay",
-            Assets.cashWithdrawIcons.icBenefitpay.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.benefitpay.svg(width: AppSize.w24),
             Color(0xFF00A3E0),
             FormData(
               rootNavKey.currentContext!.l10n.benefitpayNumber,
@@ -627,7 +627,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.meeza,
             "Meeza",
-            Assets.cashWithdrawIcons.icMeeza.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.meeza.svg(width: AppSize.w24),
             Color(0xFF009639),
             FormData(
               rootNavKey.currentContext!.l10n.meezaCardWallet,
@@ -638,7 +638,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.valu,
             "valU",
-            Assets.cashWithdrawIcons.icValu.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.valu.svg(width: AppSize.w24),
             Color(0xFF0088FF),
             FormData(
               rootNavKey.currentContext!.l10n.valuAccount,
@@ -651,7 +651,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.nubank,
             "Nubank",
-            Assets.cashWithdrawIcons.icNubank.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.nubank.svg(width: AppSize.w24),
             Color(0xFF8A05BE),
             FormData(
               rootNavKey.currentContext!.l10n.pixpayAccount,
@@ -662,7 +662,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.picpay,
             "PicPay",
-            Assets.cashWithdrawIcons.icPicpay.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.picpay.svg(width: AppSize.w24),
             Color(0xFF21C25E),
             FormData(
               rootNavKey.currentContext!.l10n.picpayUsernamePix,
@@ -673,7 +673,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.mercadoPago,
             "Mercado Pago",
-            Assets.cashWithdrawIcons.icMercadopago.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.mercadopago.svg(width: AppSize.w24),
             Color(0xFF009EE3),
             FormData(
               rootNavKey.currentContext!.l10n.emailCvu,
@@ -684,7 +684,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.nequi,
             "Nequi",
-            Assets.cashWithdrawIcons.icNequi.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.nequi.svg(width: AppSize.w24),
             Color(0xFF6A00FF),
             FormData(
               rootNavKey.currentContext!.l10n.nequiNumber,
@@ -695,7 +695,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.daviplata,
             "Daviplata",
-            Assets.cashWithdrawIcons.icDaviplata.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.daviplata.svg(width: AppSize.w24),
             Color(0xFFE30613),
             FormData(
               rootNavKey.currentContext!.l10n.daviplataNumber,
@@ -706,7 +706,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.yape,
             "Yape",
-            Assets.cashWithdrawIcons.icYape.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.yape.svg(width: AppSize.w24),
             Color(0xFF6A1B9A),
             FormData(
               rootNavKey.currentContext!.l10n.yapeNumber,
@@ -717,7 +717,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.plin,
             "Plin",
-            Assets.cashWithdrawIcons.icPlin.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.plin.svg(width: AppSize.w24),
             Color(0xFF00AEEF),
             FormData(
               rootNavKey.currentContext!.l10n.plinNumber,
@@ -728,7 +728,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.rappiPay,
             "RappiPay",
-            Assets.cashWithdrawIcons.icRappipay.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.rappipay.svg(width: AppSize.w24),
             Color(0xFFFF441F),
             FormData(
               rootNavKey.currentContext!.l10n.rappiAccount,
@@ -741,7 +741,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.mach,
             "MACH",
-            Assets.cashWithdrawIcons.icMach.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.mach.svg(width: AppSize.w24),
             Color(0xFFFFD400),
             FormData(
               rootNavKey.currentContext!.l10n.machAccount,
@@ -752,7 +752,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.prex,
             "Prex",
-            Assets.cashWithdrawIcons.icPrex.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.prex.svg(width: AppSize.w24),
             Color(0xFF00AEEF),
             FormData(
               rootNavKey.currentContext!.l10n.prexAccount,
@@ -765,7 +765,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.payId,
             "PayID",
-            Assets.cashWithdrawIcons.icPayid.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.payid.svg(width: AppSize.w24),
             Color(0xFF6C2BD9),
             FormData(
               rootNavKey.currentContext!.l10n.payIdEmail,
@@ -776,7 +776,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.commbank,
             "CommBank",
-            Assets.cashWithdrawIcons.icCommbank.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.commbank.svg(width: AppSize.w24),
             Color(0xFFFFCC00),
             FormData(
               rootNavKey.currentContext!.l10n.bsbAccount,
@@ -787,7 +787,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.westpac,
             "Westpac",
-            Assets.cashWithdrawIcons.icWestpac.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.westpac.svg(width: AppSize.w24),
             Color(0xFFD50000),
             FormData(
               rootNavKey.currentContext!.l10n.bsbAccount,
@@ -798,7 +798,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.anz,
             "ANZ",
-            Assets.cashWithdrawIcons.icAnz.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.anz.svg(width: AppSize.w24),
             Color(0xFF0072CE),
             FormData(
               rootNavKey.currentContext!.l10n.bsbAccount,
@@ -809,7 +809,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.nab,
             "NAB",
-            Assets.cashWithdrawIcons.icNab.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.nab.svg(width: AppSize.w24),
             Color(0xFFC8102E),
             FormData(
               rootNavKey.currentContext!.l10n.bsbAccount,
@@ -820,7 +820,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.up,
             "Up",
-            Assets.cashWithdrawIcons.icUp.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.up.svg(width: AppSize.w24),
             Color(0xFFFF6F00),
             FormData(
               rootNavKey.currentContext!.l10n.upnamePayId,
@@ -833,7 +833,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.afterpay,
             "Afterpay",
-            Assets.cashWithdrawIcons.icAfterpay.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.afterpay.svg(width: AppSize.w24),
             Color(0xFF00D084),
             FormData(
               rootNavKey.currentContext!.l10n.accountEmail,
@@ -844,7 +844,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.zip,
             "Zip",
-            Assets.cashWithdrawIcons.icZip.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.zip.svg(width: AppSize.w24),
             Color(0xFF00C853),
             FormData(
               rootNavKey.currentContext!.l10n.zipId,
@@ -857,7 +857,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.kiwibank,
             "Kiwibank",
-            Assets.cashWithdrawIcons.icKiwibank.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.kiwibank.svg(width: AppSize.w24),
             Color(0xFF78BE20),
             FormData(
               rootNavKey.currentContext!.l10n.accountNumber,
@@ -868,7 +868,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.scotiabank,
             "Scotiabank",
-            Assets.cashWithdrawIcons.icScotiabank.svg(width: AppSize.w24),
+            Assets.cashWithdrawIcons.scotiabank.svg(width: AppSize.w24),
             Color(0xFFE31837),
             FormData(
               rootNavKey.currentContext!.l10n.baseIdAccount,
@@ -886,7 +886,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.bitcoin,
             "Bitcoin",
-            Assets.cryptoWithdrawIcons.icBitcoin.svg(width: AppSize.w24),
+            Assets.cryptoWithdrawIcons.bitcoin.svg(width: AppSize.w24),
             Color(0xFFF7931A),
             FormData(
               rootNavKey.currentContext!.l10n.btcWalletAddress,
@@ -897,7 +897,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.ethereum,
             "Ethereum",
-            Assets.cryptoWithdrawIcons.icEthereum.svg(width: AppSize.w24),
+            Assets.cryptoWithdrawIcons.ethereum.svg(width: AppSize.w24),
             Color(0xFF627EEA),
             FormData(
               rootNavKey.currentContext!.l10n.ethWalletAddress,
@@ -908,7 +908,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.usdt,
             "USDT",
-            Assets.cryptoWithdrawIcons.icUsdt.svg(width: AppSize.w24),
+            Assets.cryptoWithdrawIcons.usdt.svg(width: AppSize.w24),
             Color(0xFF26A17B),
             FormData(
               rootNavKey.currentContext!.l10n.usdtNetwork,
@@ -919,7 +919,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.usdc,
             "USDC",
-            Assets.cryptoWithdrawIcons.icUsdc.svg(width: AppSize.w24),
+            Assets.cryptoWithdrawIcons.usdc.svg(width: AppSize.w24),
             Color(0xFF2775CA),
             FormData(
               rootNavKey.currentContext!.l10n.usdcNetwork,
@@ -930,7 +930,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.binancePay,
             "Binance Pay",
-            Assets.cryptoWithdrawIcons.icBinancepay.svg(width: AppSize.w24),
+            Assets.cryptoWithdrawIcons.binancepay.svg(width: AppSize.w24),
             Color(0xFFF3BA2F),
             FormData(
               rootNavKey.currentContext!.l10n.binanceIdEmail,
@@ -941,7 +941,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.bnb,
             "BNB",
-            Assets.cryptoWithdrawIcons.icBnb.svg(width: AppSize.w24),
+            Assets.cryptoWithdrawIcons.bnb.svg(width: AppSize.w24),
             Color(0xFFF3BA2F),
             FormData(
               rootNavKey.currentContext!.l10n.bep20Address,
@@ -952,7 +952,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.litecoin,
             "Litecoin",
-            Assets.cryptoWithdrawIcons.icLitecoin.svg(width: AppSize.w24),
+            Assets.cryptoWithdrawIcons.litecoin.svg(width: AppSize.w24),
             Color(0xFF345D9D),
             FormData(
               rootNavKey.currentContext!.l10n.ltcWalletAddress,
@@ -963,7 +963,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.tron,
             "Tron (TRX)",
-            Assets.cryptoWithdrawIcons.icTron.svg(width: AppSize.w24),
+            Assets.cryptoWithdrawIcons.tron.svg(width: AppSize.w24),
             Color(0xFFFF060A),
             FormData(
               rootNavKey.currentContext!.l10n.trxAddress,
@@ -974,7 +974,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.dogecoin,
             "Dogecoin",
-            Assets.cryptoWithdrawIcons.icDogecoin.svg(width: AppSize.w24),
+            Assets.cryptoWithdrawIcons.dogecoin.svg(width: AppSize.w24),
             Color(0xFFC2A633),
             FormData(
               rootNavKey.currentContext!.l10n.dogeAddress,
@@ -985,7 +985,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.shibaInu,
             "Shiba Inu",
-            Assets.cryptoWithdrawIcons.icShibainu.svg(width: AppSize.w24),
+            Assets.cryptoWithdrawIcons.shibainu.svg(width: AppSize.w24),
             Color(0xFFF28C28),
             FormData(
               rootNavKey.currentContext!.l10n.shibAddress,
@@ -996,7 +996,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.solana,
             "Solana",
-            Assets.cryptoWithdrawIcons.icSolana.svg(width: AppSize.w24),
+            Assets.cryptoWithdrawIcons.solana.svg(width: AppSize.w24),
             Color(0xFF9945FF),
             FormData(
               rootNavKey.currentContext!.l10n.solAddress,
@@ -1007,7 +1007,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.ripple,
             "Ripple (XRP)",
-            Assets.cryptoWithdrawIcons.icRipple.svg(width: AppSize.w24),
+            Assets.cryptoWithdrawIcons.ripple.svg(width: AppSize.w24),
             Color(0xFF23292F),
             FormData(
               rootNavKey.currentContext!.l10n.xrpAddressTag,
@@ -1018,7 +1018,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.polygon,
             "Polygon (MATIC)",
-            Assets.cryptoWithdrawIcons.icPolygon.svg(width: AppSize.w24),
+            Assets.cryptoWithdrawIcons.polygon.svg(width: AppSize.w24),
             Color(0xFF8247E5),
             FormData(
               rootNavKey.currentContext!.l10n.polygonAddress,
@@ -1029,7 +1029,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.dash,
             "Dash",
-            Assets.cryptoWithdrawIcons.icDash.svg(width: AppSize.w24),
+            Assets.cryptoWithdrawIcons.dash.svg(width: AppSize.w24),
             Color(0xFF008CE7),
             FormData(
               rootNavKey.currentContext!.l10n.dashAddress,
@@ -1040,7 +1040,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.bitcoinCash,
             "Bitcoin Cash",
-            Assets.cryptoWithdrawIcons.icBitcoincash.svg(width: AppSize.w24),
+            Assets.cryptoWithdrawIcons.bitcoincash.svg(width: AppSize.w24),
             Color(0xFF8DC351),
             FormData(
               rootNavKey.currentContext!.l10n.bchAddress,
@@ -1091,7 +1091,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.steamWallet,
             "Steam Wallet",
-            Assets.giftWithdrawIcons.icSteamwallet.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.steamwallet.svg(width: AppSize.w24),
             Color(0xFF34A853),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1102,7 +1102,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.playstation,
             "PlayStation",
-            Assets.giftWithdrawIcons.icPlaystation.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.playstation.svg(width: AppSize.w24),
             Color(0xFFFFFFFF),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1113,7 +1113,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.xboxLive,
             "Xbox Live",
-            Assets.giftWithdrawIcons.icXboxlive.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.xboxlive.svg(width: AppSize.w24),
             Color(0xFF1B2838),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1124,7 +1124,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.nintendoEshop,
             "Nintendo eShop",
-            Assets.giftWithdrawIcons.icNintendoEshop.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.nintendoEshop.svg(width: AppSize.w24),
             Color(0xFF00D1B2),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1135,7 +1135,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.razerGold,
             "Razer Gold",
-            Assets.giftWithdrawIcons.icRazergold.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.razergold.svg(width: AppSize.w24),
             Color(0xFF44D62C),
             FormData(
               rootNavKey.currentContext!.l10n.razerIdEmail,
@@ -1146,7 +1146,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.amazon,
             "Amazon",
-            Assets.giftWithdrawIcons.icAmazon.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.amazon.svg(width: AppSize.w24),
             Color(0xFFFF9900),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1157,7 +1157,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.ebay,
             "eBay",
-            Assets.giftWithdrawIcons.icEbay.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.ebay.svg(width: AppSize.w24),
             Color(0xFFE53238),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1168,7 +1168,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.walmart,
             "Walmart",
-            Assets.giftWithdrawIcons.icWalmart.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.walmart.svg(width: AppSize.w24),
             Color(0xFF0071CE),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1179,7 +1179,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.target,
             "Target",
-            Assets.giftWithdrawIcons.icTarget.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.target.svg(width: AppSize.w24),
             Color(0xFFCC0000),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1190,7 +1190,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.shien,
             "Shien",
-            Assets.giftWithdrawIcons.icShien.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.shien.svg(width: AppSize.w24),
             Color(0xFFFFFFFF),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1201,7 +1201,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.sephora,
             "Sephora",
-            Assets.giftWithdrawIcons.icSephora.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.sephora.svg(width: AppSize.w24),
             Color(0xFFFFFFFF),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1212,7 +1212,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.nike,
             "Nike",
-            Assets.giftWithdrawIcons.icNike.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.nike.svg(width: AppSize.w24),
             Color(0xFFFFFFFF),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1223,7 +1223,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.netflix,
             "Netflix",
-            Assets.giftWithdrawIcons.icNetflix.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.netflix.svg(width: AppSize.w24),
             Color(0xFFE50914),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1234,7 +1234,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.spotify,
             "Spotify",
-            Assets.giftWithdrawIcons.icSpotify.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.spotify.svg(width: AppSize.w24),
             Color(0xFF1DB954),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1245,7 +1245,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.disneyPlus,
             "Disney+",
-            Assets.giftWithdrawIcons.icDisney.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.disney.svg(width: AppSize.w24),
             Color(0xFF113CCF),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1256,7 +1256,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.twitch,
             "Twitch",
-            Assets.giftWithdrawIcons.icTwitch.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.twitch.svg(width: AppSize.w24),
             Color(0xFF9146FF),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1267,7 +1267,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.starbucks,
             "Starbucks",
-            Assets.giftWithdrawIcons.icStarbucks.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.starbucks.svg(width: AppSize.w24),
             Color(0xFF00704A),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1278,7 +1278,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.uberEats,
             "Uber / Eats",
-            Assets.giftWithdrawIcons.icUbereats.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.ubereats.svg(width: AppSize.w24),
             Color(0xFFFFFFFF),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1289,7 +1289,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.doordash,
             "DoorDash",
-            Assets.giftWithdrawIcons.icDoordash.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.doordash.svg(width: AppSize.w24),
             Color(0xFFFF3008),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1300,7 +1300,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.visaPrepaid,
             "Visa Prepaid",
-            Assets.giftWithdrawIcons.icVisaprepaid.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.visaprepaid.svg(width: AppSize.w24),
             Color(0xFF1A1F71),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1311,7 +1311,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.mastercard,
             "Mastercard",
-            Assets.giftWithdrawIcons.icMastercard.svg(width: AppSize.w24),
+            Assets.giftWithdrawIcons.mastercard.svg(width: AppSize.w24),
             Color(0xFFF79E1B),
             FormData(
               rootNavKey.currentContext!.l10n.emailToSendCode,
@@ -1329,7 +1329,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.freeFire,
             "Free Fire",
-            Assets.gameWithdrawIcons.icFreefire.svg(width: AppSize.w24),
+            Assets.gameWithdrawIcons.freefire.svg(width: AppSize.w24),
             Color(0xFFF5A623),
             FormData(
               rootNavKey.currentContext!.l10n.playerIdUid,
@@ -1340,7 +1340,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.pubgMobile,
             "PUBG Mobile",
-            Assets.gameWithdrawIcons.icPubgmobile.svg(width: AppSize.w24),
+            Assets.gameWithdrawIcons.pubgmobile.svg(width: AppSize.w24),
             Color(0xFFF2A900),
             FormData(
               rootNavKey.currentContext!.l10n.characterId,
@@ -1351,7 +1351,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.codMobile,
             "CoD Mobile",
-            Assets.gameWithdrawIcons.icCodmobile.svg(width: AppSize.w24),
+            Assets.gameWithdrawIcons.codmobile.svg(width: AppSize.w24),
             Color(0xFFC4C4C4),
             FormData(
               rootNavKey.currentContext!.l10n.playerIdUid,
@@ -1362,7 +1362,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.fortnite,
             "Fortnite",
-            Assets.gameWithdrawIcons.icFortnite.svg(width: AppSize.w24),
+            Assets.gameWithdrawIcons.fortnite.svg(width: AppSize.w24),
             Color(0xFF9146FF),
             FormData(
               rootNavKey.currentContext!.l10n.epicGamesUsername,
@@ -1373,7 +1373,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.apexLegends,
             "Apex Legends",
-            Assets.gameWithdrawIcons.icApexLegends.svg(width: AppSize.w24),
+            Assets.gameWithdrawIcons.apexLegends.svg(width: AppSize.w24),
             Color(0xFFFF2D2D),
             FormData(
               rootNavKey.currentContext!.l10n.eaIdUsername,
@@ -1384,7 +1384,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.mobileLegends,
             "Mobile Legends",
-            Assets.gameWithdrawIcons.icMobilelegends.svg(width: AppSize.w24),
+            Assets.gameWithdrawIcons.mobilelegends.svg(width: AppSize.w24),
             Color(0xFF00BFFF),
             FormData(
               rootNavKey.currentContext!.l10n.userIdZoneId,
@@ -1395,7 +1395,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.leagueOfLegends,
             "League of Legends",
-            Assets.gameWithdrawIcons.icLeagueoflegends.svg(width: AppSize.w24),
+            Assets.gameWithdrawIcons.leagueoflegends.svg(width: AppSize.w24),
             Color(0xFFC89B3C),
             FormData(
               rootNavKey.currentContext!.l10n.riotIdNameTag,
@@ -1406,7 +1406,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.brawlStars,
             "Brawl Stars",
-            Assets.gameWithdrawIcons.icBrawlstars.svg(width: AppSize.w24),
+            Assets.gameWithdrawIcons.brawlstars.svg(width: AppSize.w24),
             Color(0xFFFFD700),
             FormData(
               rootNavKey.currentContext!.l10n.playerTag,
@@ -1417,7 +1417,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.valorant,
             "Valorant",
-            Assets.gameWithdrawIcons.icValorant.svg(width: AppSize.w24),
+            Assets.gameWithdrawIcons.valorant.svg(width: AppSize.w24),
             Color(0xFFFF4655),
             FormData(
               rootNavKey.currentContext!.l10n.riotIdNameTag,
@@ -1428,7 +1428,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.genshinImpact,
             "Genshin Impact",
-            Assets.gameWithdrawIcons.icGenshinimpact.svg(width: AppSize.w24),
+            Assets.gameWithdrawIcons.genshinimpact.svg(width: AppSize.w24),
             Color(0xFFF28C28),
             FormData(
               rootNavKey.currentContext!.l10n.userIdServer,
@@ -1439,7 +1439,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.robux,
             "Robux",
-            Assets.gameWithdrawIcons.icRobux.svg(width: AppSize.w24),
+            Assets.gameWithdrawIcons.robux.svg(width: AppSize.w24),
             Color(0xFF00A2FF),
             FormData(
               rootNavKey.currentContext!.l10n.robloxUsername,
@@ -1450,7 +1450,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.minecraft,
             "Minecraft",
-            Assets.gameWithdrawIcons.icMinecraft.svg(width: AppSize.w24),
+            Assets.gameWithdrawIcons.minecraft.svg(width: AppSize.w24),
             Color(0xFF5C8A3E),
             FormData(
               rootNavKey.currentContext!.l10n.xboxGamertagEmail,
@@ -1461,7 +1461,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.clashOfClans,
             "Clash of Clans",
-            Assets.gameWithdrawIcons.icClashofclans.svg(width: AppSize.w24),
+            Assets.gameWithdrawIcons.clashofclans.svg(width: AppSize.w24),
             Color(0xFFD4AF37),
             FormData(
               rootNavKey.currentContext!.l10n.playerTag,
@@ -1472,7 +1472,7 @@ class WalletProvider extends ChangeNotifier {
           WalletItem(
             rootNavKey.currentContext!.l10n.eaFc,
             "EA FC",
-            Assets.gameWithdrawIcons.icEafc.svg(width: AppSize.w24),
+            Assets.gameWithdrawIcons.eafc.svg(width: AppSize.w24),
             Color(0xFF444444),
             FormData(
               rootNavKey.currentContext!.l10n.eaIdPsnXbox,

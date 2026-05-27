@@ -175,44 +175,44 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         color: context.themeColors.secondaryGradient4,
                       ),
                     )
-                  : Assets.navIcons.home.svg(width: AppSize.w22),
+                  : Assets.navIcons.house.svg(width: AppSize.w22),
               title: context.l10n.linkGoogleAccount,
               onTap: auth.isLinkLoading ? null : () => _handleLinkAccount(context, auth),
             ),
           ),
         ProfileOptionTile(
-          icon: Assets.navIcons.profile.svg(width: AppSize.w22),
+          icon: Assets.navIcons.account.svg(width: AppSize.w22),
           title: context.l10n.settings,
           onTap: () => NavigationHelper().navigateWithAdCheck(
               context, () => context.pushNamed(AppRoutes.settings)),
         ),
         ProfileOptionTile(
-          icon: Assets.icons.trophy.svg(width: AppSize.w22),
+          icon: Assets.icons.award.svg(width: AppSize.w22),
           title: context.l10n.referAndEarn,
           onTap: () => NavigationHelper().navigateWithAdCheck(
               context, () => context.goNamed(AppRoutes.referEarn)),
         ),
         // ProfileOptionTile(
-        //   icon: Assets.icons.leaderboard.svg(width: AppSize.w22),
+        //   icon: Assets.icons.rankings.svg(width: AppSize.w22),
         //   title: 'Achievement',
         //   onTap: () => NavigationHelper().navigateWithAdCheck(
         //       context, () => context.pushNamed(AppRoutes.achievement)),
         // ),
         ProfileOptionTile(
-          icon: Assets.icons.profileIcons.support.svg(width: AppSize.w22),
+          icon: Assets.icons.profileIcons.help.svg(width: AppSize.w22),
           title: context.l10n.support,
           onTap: () => NavigationHelper().navigateWithAdCheck(
               context, () => context.pushNamed(AppRoutes.support)),
         ),
         ProfileOptionTile(
-          icon: Assets.icons.withdraw.svg(width: AppSize.w22),
+          icon: Assets.icons.cashout.svg(width: AppSize.w22),
           title: context.l10n.privacyPolicy,
           onTap: () {
             launchUrlString(RemoteConfigService.instance.privacyPolicyUrl);
           },
         ),
         ProfileOptionTile(
-          icon: Assets.icons.withdraw.svg(width: AppSize.w22),
+          icon: Assets.icons.cashout.svg(width: AppSize.w22),
           title: context.l10n.termsOfService,
           onTap: () {
             launchUrlString(RemoteConfigService.instance.termsAndConditions);

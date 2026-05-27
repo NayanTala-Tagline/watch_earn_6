@@ -28,7 +28,7 @@ class HomeStatsRow extends StatelessWidget {
                   borderRadius: 14,
                   accent: context.themeColors.secondaryGradient4,
                   child: _StatCard(
-                    icon: Assets.icons.level.svg(width: AppSize.w22, height: AppSize.h22),
+                    icon: Assets.icons.tier.svg(width: AppSize.w22, height: AppSize.h22),
                     value: '${user?.level.toStringAsFixed(0)}',
                     label: context.l10n.level,
                     gradient: LinearGradient(
@@ -71,7 +71,7 @@ class HomeStatsRow extends StatelessWidget {
                   accent: context.themeColors.secondaryGradient4,
 
                   child: _StatCard(
-                    icon: Assets.icons.xp.svg(width: AppSize.w22, height: AppSize.h22),
+                    icon: Assets.icons.experience.svg(width: AppSize.w22, height: AppSize.h22),
                     value: '${user?.xp.toStringAsFixed(0)}',
                     label: context.l10n.xp,
                     gradient: const LinearGradient(

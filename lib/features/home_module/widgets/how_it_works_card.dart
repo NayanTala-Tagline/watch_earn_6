@@ -49,7 +49,7 @@ class HowItWorksCard extends StatelessWidget {
                       ),
                       child: Padding(
                         padding: EdgeInsets.all(AppSize.w5),
-                        child: Assets.icons.profileIcons.support.svg(
+                        child: Assets.icons.profileIcons.help.svg(
                           height: AppSize.h25,
                           width: AppSize.w24
                         ),
