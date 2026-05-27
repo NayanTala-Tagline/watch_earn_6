@@ -1,0 +1,486 @@
+{
+  "@@locale": "fr",
+
+  "appTitle": "Daily Cash",
+  "appName": "Daily Cash",
+
+  "language": "Langue",
+  "selectLanguage": "Sélectionner la langue",
+
+  "settings": "Paramètres",
+  "preferences": "Préférences",
+  "soundEffects": "Effets sonores",
+  "appSounds": "Sons de l'application",
+  "hapticFeedback": "Retour haptique",
+  "vibrationOnTap": "Vibration au toucher",
+
+  "dailyCash": "Daily Cash",
+  "watch": "REGARDER",
+  "earn": "GAGNER",
+  "play": "JOUER",
+  "welcome": "Bienvenue",
+  "signInToAccessWallet": "Connectez-vous pour accéder à votre portefeuille",
+  "continueWithGoogle": "Continuer avec Google",
+  "continueAsGuest": "Continuer en tant qu'invité",
+  "byContYouAgree": "En continuant, vous acceptez nos ",
+  "terms": "Conditions",
+  "privacyPolicy": "Politique de confidentialité",
+  "termsOfService": "Conditions d'utilisation",
+  "andSymbol": " et ",
+
+  "onboardingOneTitle": "Félicitations !",
+  "onboardingOneDesc": "Bienvenue sur Watch & Earn – Transformez votre temps en récompenses !",
+  "onboardingTwoTitle": "Augmentez votre solde",
+  "onboardingTwoDesc": "Choisissez des publicités, gagnez des bonus, augmentez votre solde",
+  "onboardingThreeTitle": "Regardez et gagnez",
+  "onboardingThreeDesc": "Plus vous regardez, plus vous gagnez",
+  "next": "Suivant",
+  "getStarted": "Commencer",
+
+  "home": "Accueil",
+  "myProfile": "Mon profil",
+  "leaderboard": "Classement",
+  "referAndEarn": "Parrainez et gagnez",
+  "myWallet": "Mon portefeuille",
+  "shareAndSupport": "Partager et support",
+  "signOut": "Déconnexion",
+  "signOutConfirmTitle": "Déconnexion",
+  "signOutConfirmMessage": "Êtes-vous sûr ? Voulez-vous vous déconnecter ?",
+  "cancel": "Annuler",
+  "deleteAccount": "Supprimer le compte",
+  "deleteAccountConfirmTitle": "Supprimer le compte",
+  "deleteAccountConfirmMessage": "Cette action est permanente et irréversible. Toutes vos données seront définitivement supprimées.",
+  "delete": "Supprimer",
+  "pressBackToExit": "Appuyez à nouveau pour quitter",
+
+  "wallet": "Portefeuille",
+  "totalBalance": "Solde total",
+  "minWithdrawal": "Retrait minimum : 1,00 $",
+  "withdraw": "Retirer",
+  "history": "Historique",
+  "rewards": "Récompenses",
+
+  "dailyCheckinReward": "Récompense d'enregistrement quotidien",
+  "claimReward": "Réclamer la récompense",
+  "rewardClaimed": "Récompense réclamée",
+
+  "earnRewards": "Gagner des récompenses",
+  "topEarningOpportunities": "Meilleures opportunités de gains",
+  "howItWork": "Comment ça marche",
+  "learnToEarn": "Apprendre pour gagner",
+
+  "level": "Niveau",
+  "xp": "XP",
+
+  "howItWorks": "Comment ça marche",
+  "readyToStartEarning": "Prêt à commencer à gagner ?",
+  "backToHome": "Retour à l'accueil",
+
+  "visitWebsites": "Visiter des sites web",
+
+  "achievements": "Réalisations",
+  "checkAnswer": "Vérifier la réponse",
+
+  "rewardsAndBonus": "Récompenses et bonus",
+  "yourReferralCode": "Votre code de parrainage",
+  "linkAccountForCode": "Lier le compte pour le code",
+  "shareYourCodeAndEarn": "Partagez votre code et gagnez",
+  "enterReferralCode": "Entrer le code de parrainage",
+  "referralCodeApplied": "Code de parrainage appliqué",
+  "enterFriendsCode": "Entrez le code d'un ami",
+  "pleaseEnterReferralCode": "Veuillez entrer le code de parrainage",
+  "codeApplied": "Code appliqué",
+  "rateUs": "Évaluez-nous",
+  "thanksForRating": "Merci pour votre évaluation !",
+  "yourFeedbackMeansWorld": "Vos commentaires comptent énormément pour nous",
+  "loveOurApp": "Vous aimez notre app ? Partagez votre avis !",
+  "rateAndGetReward": "Évaluez et obtenez une récompense",
+  "youAlreadyRatedApp": "Vous avez déjà évalué l'application",
+  "linkYourAccountToStartEarning": "Liez votre compte pour commencer à gagner",
+
+  "support": "Support",
+  "howCanWeHelp": "Comment pouvons-nous vous aider ?",
+  "supportSubtitle": "Envoyez-nous votre question ou problème et notre équipe vous répondra rapidement.",
+  "title": "Titre",
+  "description": "Description",
+  "brieflyDescribeIssue": "Décrivez brièvement votre problème",
+  "tellUsMore": "Dites-nous en plus sur ce qui s'est passé afin que nous puissions mieux vous aider.",
+  "submitRequest": "Envoyer la demande",
+  "supportNote": "Nous répondons généralement sous 24 à 48 heures. Les informations de votre compte sont envoyées automatiquement avec la demande.",
+  "pleaseEnterTitle": "Veuillez entrer un titre",
+  "titleTooShort": "Le titre est trop court",
+  "pleaseEnterDescription": "Veuillez entrer une description",
+  "pleaseProvideMoreDetail": "Veuillez fournir un peu plus de détails",
+
+  "account": "Compte",
+  "linkGoogleAccount": "Lier le compte Google",
+  "coins": "Pièces",
+  "googleAccountLinked": "Compte Google lié avec succès !",
+
+  "pullDownToRefresh": "Tirez vers le bas pour actualiser !",
+  "refreshIn": "Actualisation dans ",
+  
+    "cash": "Espèces",
+    "crypto": "Crypto",
+    "giftCards": "Cartes cadeaux",
+    "game_credits": "Crédits de jeu",
+
+    "paypal": "PayPal",
+    "enterPaypalEmail": "Entrez l'e-mail PayPal",
+    "wise": "Wise",
+    "emailIban": "E-mail / IBAN",
+    "payoneer": "Payoneer",
+    "payoneerEmail": "E-mail Payoneer",
+    "skrill": "Skrill",
+    "skrillEmail": "E-mail Skrill",
+    "applePay": "Apple Pay",
+    "appleId": "Identifiant Apple",
+    "googleWallet": "Google Wallet",
+    "googlePayNumber": "Numéro Google Pay",
+    "samsungWallet": "Samsung Wallet",
+    "samsungPayId": "ID Samsung Pay",
+    "wellsFargo": "Wells Fargo",
+    "accountNumber": "Numéro de compte",
+
+    "alipay": "Alipay",
+    "alipayId": "ID Alipay",
+
+    "wechatPay": "WeChat Pay",
+    "wechatId": "ID WeChat",
+
+    "upi": "UPI",
+    "upiId": "ID UPI (vpa)",
+
+    "phonepe": "Numéro PhonePe",
+    "phonepeNumber": "Numéro PhonePe",
+
+    "paytm": "Paytm",
+    "paytmNumber": "Numéro Paytm",
+
+    "gcash": "GCash",
+    "gcashNumber": "Numéro GCash",
+
+    "grabpay": "GrabPay",
+    "grabRegisteredNumber": "Numéro enregistré Grab",
+
+    "kakaopay": "KakaoPay",
+    "kakaoId": "ID Kakao",
+
+    "paypay": "PayPay",
+    "paypayId": "ID PayPay",
+
+    "easypaisa": "Easypaisa",
+    "easypaisaNumber": "Numéro Easypaisa",
+
+    "sadapay": "SadaPay",
+    "sadapayAccount": "Compte SadaPay",
+
+    "bkash": "bKash",
+    "bkashNumber": "Numéro bKash",
+
+    "callfin": "CallFin",
+    "callfinNumber": "Numéro CallFin",
+
+    "revolut": "Revolut",
+    "revtagIban": "Revtag / IBAN",
+
+    "monzo": "Monzo",
+    "accountSortcode": "Compte / Code bancaire",
+
+    "n26": "N26",
+    "iban": "IBAN",
+
+    "bunq": "Bunq",
+    "ibanEmail": "IBAN / E-mail",
+
+    "starlingBank": "Starling Bank",
+
+    "ideal": "iDEAL",
+
+    "tikkie": "Tikkie",
+    "tikkieLinkNumber": "Lien/Numéro Tikkie",
+
+    "vipps": "Vipps",
+    "vippsNumber": "Numéro Vipps",
+
+    "mobilePay": "MobilePay",
+    "mobilepayNumber": "Numéro MobilePay",
+
+    "swish": "Swish",
+    "swishNumber": "Numéro Swish",
+
+    "blik": "BLIK",
+    "blikCode": "Code BLIK",
+
+    "lydia": "Lydia",
+    "lydiaNumber": "Numéro Lydia",
+
+    "paylib": "PayLib",
+    "paylibNumber": "Numéro PayLib",
+
+    "twint": "Twint",
+    "twintNumber": "Numéro Twint",
+
+    "satispay": "Satispay",
+    "satispayNumber": "Numéro Satispay",
+
+    "iyzico": "iyzico",
+    "accountId": "ID de compte",
+
+    "mpesa": "M-Pesa",
+    "mpesaNumber": "Numéro M-Pesa",
+
+    "opay": "OPay",
+    "opayNumber": "Numéro OPay",
+
+    "orangeMoney": "Orange Money",
+    "orangeMoneyNumber": "Numéro Orange Money",
+
+    "mtnMobile": "MTN Mobile",
+    "mtnMobileNumber": "Numéro MTN Mobile",
+
+    "chipperCash": "Chipper Cash",
+    "chipperTag": "Tag Chipper",
+
+    "moniepoint": "Moniepoint",
+
+    "baxi": "Baxi",
+    "baxiAccount": "Compte Baxi",
+
+    "capitecPay": "Capitec Pay",
+    "idPhone": "ID / Téléphone",
+
+    "snapscan": "SnapScan",
+    "snapscanId": "ID SnapScan",
+
+    "natsWallet": "NatsWallet",
+    "cardAccount": "Carte/Compte",
+
+    "onafriq": "Onafriq",
+    "userId": "ID utilisateur",
+
+    "stcPay": "STC Pay",
+    "stcPayNumber": "Numéro STC Pay",
+
+    "vodafoneCash": "Vodafone Cash",
+    "vodafoneNumber": "Numéro Vodafone",
+
+    "careemPay": "Careem Pay",
+    "careemNumber": "Numéro Careem",
+
+    "instapay": "InstaPay",
+    "instapayAddress": "Adresse InstaPay",
+
+    "myfawry": "myfawry",
+    "fawryNumber": "Numéro Fawry",
+
+    "benefitPay": "BenefitPay",
+    "benefitpayNumber": "Numéro BenefitPay",
+
+    "meeza": "Meeza",
+    "meezaCardWallet": "Carte/Portefeuille Meeza",
+
+    "valu": "valU",
+    "valuAccount": "Compte valU",
+
+    "nubank": "Nubank",
+    "pixpayAccount": "Clé Pix / Compte",
+
+    "picpay": "PicPay",
+    "picpayUsernamePix": "Utilisateur PicPay / Pix",
+
+    "mercadoPago": "Mercado Pago",
+    "emailCvu": "E-mail / CVU",
+
+    "nequi": "Nequi",
+    "nequiNumber": "Numéro Nequi",
+
+    "daviplata": "Daviplata",
+    "daviplataNumber": "Numéro Daviplata",
+
+    "yape": "Yape",
+    "yapeNumber": "Numéro Yape",
+
+    "plin": "Plin",
+    "plinNumber": "Numéro Plin",
+
+    "rappiPay": "RappiPay",
+    "rappiAccount": "Compte Rappi",
+
+    "mach": "MACH",
+    "machAccount": "Compte MACH",
+
+    "prex": "Prex",
+    "prexAccount": "Compte Prex",
+
+    "payId": "PayID",
+    "payIdEmail": "PayID (E-mail/Téléphone)",
+
+    "commbank": "CommBank",
+    "bsbAccount": "BSB & Compte",
+
+    "westpac": "Westpac",
+    "anz": "ANZ",
+    "nab": "NAB",
+
+    "up": "Up",
+    "upnamePayId": "Upname / PayID",
+
+    "afterpay": "Afterpay",
+    "accountEmail": "E-mail du compte",
+
+    "zip": "Zip",
+    "zipId": "ID Zip",
+
+    "kiwibank": "Kiwibank",
+    "scotiabank": "Scotiabank",
+    "baseIdAccount": "ID de base / Compte",
+
+    "bitcoin": "Bitcoin",
+    "btcWalletAddress": "Adresse BTC",
+
+    "ethereum": "Ethereum",
+    "ethWalletAddress": "Adresse ETH",
+
+    "usdt": "USDT",
+    "usdtNetwork": "TRC20 / BEP20",
+
+    "usdc": "USDC",
+    "usdcNetwork": "ERC20 / SPL",
+
+    "binancePay": "Binance Pay",
+    "binanceIdEmail": "ID Binance / E-mail",
+
+    "bnb": "BNB",
+    "bep20Address": "Adresse BEP20",
+
+    "litecoin": "Litecoin",
+    "ltcWalletAddress": "Adresse LTC",
+
+    "tron": "Tron (TRX)",
+    "trxAddress": "Adresse TRX",
+
+    "dogecoin": "Dogecoin",
+    "dogeAddress": "Adresse DOGE",
+
+    "shibaInu": "Shiba Inu",
+    "shibAddress": "Adresse SHIB",
+
+    "solana": "Solana",
+    "solAddress": "Adresse SOL",
+
+    "ripple": "Ripple (XRP)",
+    "xrpAddressTag": "Adresse XRP & Tag",
+
+    "polygon": "Polygon (MATIC)",
+    "polygonAddress": "Adresse Polygon",
+
+    "dash": "Dash",
+    "dashAddress": "Adresse Dash",
+
+    "bitcoinCash": "Bitcoin Cash",
+    "bchAddress": "Adresse BCH",
+
+    "perfectMoney": "Perfect Money",
+    "perfectMoneyAccount": "Compte Perfect Money",
+
+  "googlePlay": "Google Play",
+  "emailToSendCode": "E-mail pour envoyer le code",
+  "appleGiftCard": "Carte cadeau Apple",
+  "steamWallet": "Portefeuille Steam",
+  "playstation": "PlayStation",
+  "xboxLive": "Xbox Live",
+  "nintendoEshop": "Nintendo eShop",
+  "razerGold": "Razer Gold",
+  "razerIdEmail": "ID Razer / E-mail",
+  "amazon": "Amazon",
+  "ebay": "eBay",
+  "walmart": "Walmart",
+  "target": "Target",
+  "shein": "Shein",
+  "sephora": "Sephora",
+  "nike": "Nike",
+  "netflix": "Netflix",
+  "spotify": "Spotify",
+  "disneyPlus": "Disney+",
+  "twitch": "Twitch",
+  "starbucks": "Starbucks",
+  "uberEats": "Uber Eats",
+  "doordash": "DoorDash",
+  "visaPrepaid": "Visa prépayée",
+  "mastercard": "Mastercard",
+
+    "freeFire": "Free Fire",
+    "playerIdUid": "ID joueur (UID)",
+
+    "pubgMobile": "PUBG Mobile",
+    "characterId": "ID personnage",
+
+    "codMobile": "CoD Mobile",
+
+    "fortnite": "Fortnite",
+    "epicGamesUsername": "Nom d'utilisateur Epic Games",
+
+    "apexLegends": "Apex Legends",
+    "eaIdUsername": "ID EA / Nom d'utilisateur",
+
+    "mobileLegends": "Mobile Legends",
+    "userIdZoneId": "ID utilisateur & Zone",
+
+    "leagueOfLegends": "League of Legends",
+    "riotIdNameTag": "ID Riot (Nom#Tag)",
+
+    "brawlStars": "Brawl Stars",
+    "playerTag": "Tag joueur",
+
+    "valorant": "Valorant",
+
+    "genshinImpact": "Genshin Impact",
+    "userIdServer": "ID utilisateur & Serveur",
+
+    "robux": "Robux",
+    "robloxUsername": "Nom d'utilisateur Roblox",
+
+    "minecraft": "Minecraft",
+    "xboxGamertagEmail": "Gamertag Xbox / E-mail",
+
+    "clashOfClans": "Clash of Clans",
+
+    "eaFc": "EA FC",
+    "eaIdPsnXbox": "ID EA / PSN / Xbox",
+
+    "pleaseSelectWithdrawSubType": "Veuillez sélectionner le sous-type de retrait",
+    "pleaseSelectWithdrawType": "Veuillez sélectionner le type de retrait",
+    "pleaseEnterWalletAddress": "Veuillez entrer l'adresse du portefeuille",
+    "pleaseEnterValidAmount": "Veuillez entrer un montant valide",
+
+    "minimumWithdrawIs": "Le retrait minimum est ",
+    "value": "Valeur : ",
+    "amountCoins": "Montant (Pièces)",
+    "additionalNote": "Note supplémentaire (Optionnel)",
+
+    "withdrawRequestSent": "Demande de retrait envoyée",
+    "confirmWithdrawal": "CONFIRMER LE RETRAIT",
+
+    "fieldRequired": "Champ requis",
+    "invalidInput": "Entrée invalide",
+    "min": "Min : ",
+    "withdrawTo": "Retirer vers",
+
+      "withdrawHistory": "Historique des retraits",
+      "somethingWentWrong": "Une erreur s'est produite",
+      "pleaseTryAgainLater": "Veuillez réessayer plus tard",
+      "noWithdrawalsYet": "Aucun retrait pour le moment",
+      "yourWithdrawRequestAppearHere": "Vos demandes de retrait apparaîtront ici",
+      "method": "Méthode",
+      "type": "Type",
+      "date": "Date",
+      "rejected": "REJETÉ",
+      "approved": "APPROUVÉ",
+      "pending": "EN ATTENTE",
+      "processed": "Traité",
+      "twoBusinessDays": "2 jours ouvrables",
+      "statusNote": "Note de statut",
+      "underReview": "En cours de révision",
+      "reason": "Raison"
+}
