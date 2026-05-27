@@ -24,7 +24,7 @@ void main() async {
   // assetToFilePath(Assets.images.onBoarding2.path);
   await Injector.instance.isReady<AppDB>();
   await GoogleSignIn.instance.initialize();
-  // await RemoteConfigService.instance.init();
+  // await RemoteSettingsService.instance.init();
   await Injector.instance<AppDB>().handleAppOpen();
   await MobileAds.instance.initialize();
   await GmaMediationUnity().setCCPAConsent(true);
@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) {
-        // final locale = context.watch<LanguageProvider>().selectedLocale;
+        // final locale = context.watch<LocaleProvider>().selectedLocale;
         return MaterialApp.router(
           title: 'Daily Cash',
           debugShowCheckedModeBanner: false,

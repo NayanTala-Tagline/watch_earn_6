@@ -15,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.daily.cash.collect</string>
+	<string>com.rewardix.app</string>
 	<key>PROJECT_ID</key>
 	<string>daily-cash-adf80</string>
 	<key>STORAGE_BUCKET</key>

@@ -1,9 +1,9 @@
-// import 'package:btc_mining_tracker/widgets/app_textfield.dart';
+// import 'package:btc_mining_tracker/widgets/app_input_field.dart';
 // import 'package:btc_mining_tracker/widgets/gradient_text_widget.dart';
 // import 'package:flutter/material.dart';
 // import 'package:go_router/go_router.dart';
 // import '../extension/ext_context.dart';
-// import 'app_size.dart';
+// import 'app_dimens.dart';
 //
 // void showUpdateNameDialog(
 //     {required BuildContext context,
@@ -18,13 +18,13 @@
 //       return Dialog(
 //         backgroundColor: const Color(0xFF1A1A1A), // Dark dialog background
 //         shape: RoundedRectangleBorder(
-//           borderRadius: BorderRadius.circular(AppSize.r16),
+//           borderRadius: BorderRadius.circular(AppDimens.r16),
 //           side: const BorderSide(color: Colors.white10),
 //         ),
 //         child: Form(
 //           key: key,
 //           child: Padding(
-//             padding: EdgeInsets.all(AppSize.w20),
+//             padding: EdgeInsets.all(AppDimens.w20),
 //             child: Column(
 //               mainAxisSize: MainAxisSize.min,
 //               crossAxisAlignment: CrossAxisAlignment.start,
@@ -33,24 +33,24 @@
 //                   context.l10n.enterName,
 //                   style: context.textTheme.bodySmall?.copyWith(
 //                     color: context.themeTextColors.descriptionColor,
-//                     fontSize: AppSize.sp14,
+//                     fontSize: AppDimens.sp14,
 //                     fontWeight: FontWeight.w500
 //                   ),
 //                 ),
-//                 SizedBox(height: AppSize.h10),
+//                 SizedBox(height: AppDimens.h10),
 //
-//                 AppTextFormField(
+//                 AppInputField(
 //                   controller: controller ,
 //                   keyboardType: TextInputType.text,
 //                   textAlign: TextAlign.start,
 //                   hintStyle: context.textTheme.bodyMedium?.copyWith(
 //                     fontWeight: FontWeight.w600,
-//                     fontSize: AppSize.sp16,
+//                     fontSize: AppDimens.sp16,
 //                     color: context.themeTextColors.hintTextColor,
 //                   ),
 //                   borderSide: BorderSide.none,
 //                 ),
-//                 SizedBox(height: AppSize.h25),
+//                 SizedBox(height: AppDimens.h25),
 //
 //                 Row(
 //                   mainAxisAlignment: MainAxisAlignment.end,
@@ -61,21 +61,21 @@
 //                         context.l10n.cancel,
 //                         style: context.textTheme.bodyMedium?.copyWith(
 //                           color: context.themeTextColors.descriptionColor,
-//                           fontSize: AppSize.sp18,
+//                           fontSize: AppDimens.sp18,
 //                           fontWeight: FontWeight.w500
 //                         ),
 //                       ),
 //                     ),
-//                     SizedBox(width: AppSize.w10),
+//                     SizedBox(width: AppDimens.w10),
 //                     GestureDetector(
 //                       onTap: onTap,
 //                       child: Container(
 //                         padding: EdgeInsets.symmetric(
-//                           horizontal: AppSize.w10,
-//                           vertical: AppSize.h5
+//                           horizontal: AppDimens.w10,
+//                           vertical: AppDimens.h5
 //                         ),
 //                         decoration: BoxDecoration(
-//                           borderRadius: BorderRadius.circular(AppSize.r8),
+//                           borderRadius: BorderRadius.circular(AppDimens.r8),
 //                           border: Border.all(
 //                             color: Colors.white30
 //                           ),
@@ -91,7 +91,7 @@
 //                         ),
 //                         child: GradientText(
 //                           context.l10n.update,
-//                           fontSize: AppSize.sp18,
+//                           fontSize: AppDimens.sp18,
 //                           fontWeight: FontWeight.w500,
 //                         ),
 //                       ),

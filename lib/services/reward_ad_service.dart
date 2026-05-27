@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../utils/anaytics_manager.dart';
-import '../utils/remote_config.dart';
+import '../utils/remote_settings_service.dart';
 import '../utils/rewarded_ad_helper.dart';
 
 /// Central service for showing rewarded ads before coin claims.
@@ -14,30 +14,30 @@ class RewardAdService {
   // ── Ad-enabled checks ────────────────────────────────────────────────
 
   static bool get isDailyCheckinAdEnabled =>
-      RemoteConfigService.instance.dailyClaimReward.enabled;
+      RemoteSettingsService.instance.dailyClaimReward.enabled;
 
   static bool get isMathQuizAdEnabled =>
-      RemoteConfigService.instance.mathQuizClaimReward.enabled;
+      RemoteSettingsService.instance.mathQuizClaimReward.enabled;
 
   static bool get isScratchCardAdEnabled =>
-      RemoteConfigService.instance.scratchCardClaimReward.enabled;
+      RemoteSettingsService.instance.scratchCardClaimReward.enabled;
 
   static bool get isSpinWheelAdEnabled =>
-      RemoteConfigService.instance.spinWheelClaimReward.enabled;
+      RemoteSettingsService.instance.spinWheelClaimReward.enabled;
 
   static bool get isWebsiteRewardAdEnabled =>
-      RemoteConfigService.instance.websiteReward.enabled;
+      RemoteSettingsService.instance.websiteReward.enabled;
 
   static bool get isPlayGameRewardAdEnabled =>
-      RemoteConfigService.instance.playGameReward.enabled;
+      RemoteSettingsService.instance.playGameReward.enabled;
 
   // ── Show methods — return null if cancelled, coins to grant if watched ─
 
   static Future<int?> showDailyCheckin(BuildContext context, {required int defaultCoins}) async {
     int? earned;
-    await RewardAdHelper.showRewardAdWithBottomSheet(
+    await RewardedAdHelper.showRewardAdWithBottomSheet(
       context: context,
-      adData: RemoteConfigService.instance.dailyClaimReward,
+      adData: RemoteSettingsService.instance.dailyClaimReward,
       defaultCoins: defaultCoins,
       onAdCompleted: (coins) { earned = coins; },
       onAdCancelled: () {
@@ -49,9 +49,9 @@ class RewardAdService {
 
   static Future<int?> showMathQuiz(BuildContext context, {required int defaultCoins}) async {
     int? earned;
-    await RewardAdHelper.showRewardAdWithBottomSheet(
+    await RewardedAdHelper.showRewardAdWithBottomSheet(
       context: context,
-      adData: RemoteConfigService.instance.mathQuizClaimReward,
+      adData: RemoteSettingsService.instance.mathQuizClaimReward,
       defaultCoins: defaultCoins,
       onAdCompleted: (coins) { earned = coins; },
       onAdCancelled: () {
@@ -63,9 +63,9 @@ class RewardAdService {
 
   static Future<int?> showScratchCard(BuildContext context, {required int defaultCoins}) async {
     int? earned;
-    await RewardAdHelper.showRewardAdWithBottomSheet(
+    await RewardedAdHelper.showRewardAdWithBottomSheet(
       context: context,
-      adData: RemoteConfigService.instance.scratchCardClaimReward,
+      adData: RemoteSettingsService.instance.scratchCardClaimReward,
       defaultCoins: defaultCoins,
       onAdCompleted: (coins) { earned = coins; },
       onAdCancelled: () {
@@ -77,9 +77,9 @@ class RewardAdService {
 
   static Future<int?> showSpinWheel(BuildContext context, {required int defaultCoins}) async {
     int? earned;
-    await RewardAdHelper.showRewardAdWithBottomSheet(
+    await RewardedAdHelper.showRewardAdWithBottomSheet(
       context: context,
-      adData: RemoteConfigService.instance.spinWheelClaimReward,
+      adData: RemoteSettingsService.instance.spinWheelClaimReward,
       defaultCoins: defaultCoins,
       onAdCompleted: (coins) { earned = coins; },
       onAdCancelled: () {
@@ -91,9 +91,9 @@ class RewardAdService {
 
   static Future<int?> showWebsiteReward(BuildContext context, {required int defaultCoins}) async {
     int? earned;
-    await RewardAdHelper.showRewardAdWithBottomSheet(
+    await RewardedAdHelper.showRewardAdWithBottomSheet(
       context: context,
-      adData: RemoteConfigService.instance.websiteReward,
+      adData: RemoteSettingsService.instance.websiteReward,
       defaultCoins: defaultCoins,
       onAdCompleted: (coins) { earned = coins; },
       onAdCancelled: () {
@@ -105,9 +105,9 @@ class RewardAdService {
 
   static Future<int?> showPlayGameReward(BuildContext context, {required int defaultCoins}) async {
     int? earned;
-    await RewardAdHelper.showRewardAdWithBottomSheet(
+    await RewardedAdHelper.showRewardAdWithBottomSheet(
       context: context,
-      adData: RemoteConfigService.instance.playGameReward,
+      adData: RemoteSettingsService.instance.playGameReward,
       defaultCoins: defaultCoins,
       onAdCompleted: (coins) { earned = coins; },
       onAdCancelled: () {

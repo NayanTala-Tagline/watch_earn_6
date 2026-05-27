@@ -1,7 +1,7 @@
 import 'dart:developer';
 
 import 'package:daily_cash/services/notification_service/local_notifications_helper.dart';
-import 'package:daily_cash/utils/logger.dart';
+import 'package:daily_cash/utils/logger_ex.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:izooto_plugin/iZooto_flutter.dart';

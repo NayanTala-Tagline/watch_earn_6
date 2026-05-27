@@ -2,7 +2,7 @@
 
 import 'package:intl/intl.dart';
 
-import '../utils/logger.dart';
+import '../utils/logger_ex.dart';
 
 /// extension for [String]
 extension StringX on String {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../extension/ext_context.dart';
-import '../utils/app_size.dart';
-import 'app_button.dart';
+import '../utils/app_dimens.dart';
+import 'app_action_button.dart';
 
 Future<void> showCommonConfirmationDialog(
   BuildContext context, {
@@ -38,7 +38,7 @@ Future<void> showCommonConfirmationDialog(
         actionsPadding: const EdgeInsets.only(bottom: 12, top: 8),
         actions: [
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: AppSize.w16),
+            padding: EdgeInsets.symmetric(horizontal: AppDimens.w16),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -67,7 +67,7 @@ Future<void> showCommonConfirmationDialog(
 
                 // Confirm button
                 Expanded(
-                  child: AppButton(
+                  child: AppActionButton(
                     onPressed: () {
                       Navigator.of(context).pop();
                       onConfirm();

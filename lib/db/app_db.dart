@@ -5,7 +5,7 @@ import 'package:hive_ce/hive.dart';
 import 'package:path_provider/path_provider.dart';
 
 import '../shared/models/user_model.dart';
-import '../utils/logger.dart';
+import '../utils/logger_ex.dart';
 
 /// to store local data
 class AppDB {

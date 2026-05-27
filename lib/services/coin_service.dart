@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:daily_cash/db/app_db.dart';
 import 'package:daily_cash/di/injector.dart';
-import 'package:daily_cash/utils/logger.dart';
+import 'package:daily_cash/utils/logger_ex.dart';
 
 class CoinService {
   CoinService._();

@@ -4,7 +4,7 @@ import 'package:flash/flash_helper.dart';
 import 'package:flutter/material.dart';
 
 import '../routes/app_router.dart';
-import '../utils/app_size.dart';
+import '../utils/app_dimens.dart';
 import 'ext_context.dart';
 
 /// extension for [String] to show alerts
@@ -20,8 +20,8 @@ extension StringX on String {
         indicatorColor: const Color(0xFFE57373),
         icon: const Icon(Icons.error_outline, color: Color(0xFFE57373)),
         shouldIconPulse: false,
-        margin: EdgeInsets.symmetric(horizontal: AppSize.h16, vertical: AppSize.h16),
-        // shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(AppSize.h16)),
+        margin: EdgeInsets.symmetric(horizontal: AppDimens.h16, vertical: AppDimens.h16),
+        // shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(AppDimens.h16)),
         forwardAnimationCurve: Curves.bounceOut,
         // reverseAnimationCurve: Curves.bounceOut,
       );
@@ -40,8 +40,8 @@ extension StringX on String {
         indicatorColor: const Color(0xFF81C784),
         icon: const Icon(Icons.check_circle_outline, color: Color(0xFF81C784)),
         shouldIconPulse: false,
-        margin: EdgeInsets.symmetric(horizontal: AppSize.h16, vertical: AppSize.h16),
-        // shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(AppSize.h16)),
+        margin: EdgeInsets.symmetric(horizontal: AppDimens.h16, vertical: AppDimens.h16),
+        // shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(AppDimens.h16)),
         forwardAnimationCurve: Curves.bounceOut,
         // reverseAnimationCurve: Curves.bounceOut,
       );
@@ -60,8 +60,8 @@ extension StringX on String {
         indicatorColor: const Color(0xFF64B5F6),
         icon: const Icon(Icons.info_outline, color: Color(0xFF64B5F6)),
         shouldIconPulse: false,
-        margin: EdgeInsets.symmetric(horizontal: AppSize.h16, vertical: AppSize.h16),
-        // shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(AppSize.h16)),
+        margin: EdgeInsets.symmetric(horizontal: AppDimens.h16, vertical: AppDimens.h16),
+        // shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(AppDimens.h16)),
         forwardAnimationCurve: Curves.bounceOut,
         // reverseAnimationCurve: Curves.bounceOut,
       );

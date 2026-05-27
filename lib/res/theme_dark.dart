@@ -1,7 +1,7 @@
 import 'package:daily_cash/gen/fonts.gen.dart';
 import 'package:daily_cash/res/theme_colors.dart';
 import 'package:daily_cash/res/theme_text_colors.dart';
-import 'package:daily_cash/utils/app_size.dart';
+import 'package:daily_cash/utils/app_dimens.dart';
 import 'package:flutter/material.dart';
 
 final _darkThemeData = ThemeData.dark(useMaterial3: true);
@@ -16,7 +16,7 @@ const _themeColors = ThemeColors(
   primaryGradient1: Color(0xFF8868FF),
   primaryGradient2: Color(0xFF6C3BF6),
 
-  // Secondary Gradients (Main accent): #9467FF -> #424EFE -> #3345FF -> #45C1FD
+  // Secondary Gradients (Main highlight): #9467FF -> #424EFE -> #3345FF -> #45C1FD
   secondaryGradient1: Color(0xFFB5C4FF),
   secondaryGradient2: Color(0xFFFFE3E3),
   secondaryGradient3: Color(0xFFC5FFED),
@@ -42,7 +42,7 @@ final TextTheme _textTheme = _darkThemeData.textTheme.copyWith(
     fontWeight: FontWeight.w700,
     color: _themeTextColors.textColor,
     fontFamily: FontFamily.sora,
-    fontSize: AppSize.sp34,
+    fontSize: AppDimens.sp34,
     height: 1.17,
   ),
 
@@ -51,21 +51,21 @@ final TextTheme _textTheme = _darkThemeData.textTheme.copyWith(
     fontWeight: FontWeight.w700,
     color: _themeTextColors.textColor,
     fontFamily: FontFamily.sora,
-    fontSize: AppSize.sp20,
+    fontSize: AppDimens.sp20,
     height: 1.17,
   ),
   titleMedium: TextStyle(
     fontWeight: FontWeight.w700,
     color: _themeTextColors.textColor,
     fontFamily: FontFamily.sora,
-    fontSize: AppSize.sp16,
+    fontSize: AppDimens.sp16,
     height: 1.17,
   ),
   titleSmall: TextStyle(
     fontWeight: FontWeight.w700,
     color: _themeTextColors.descriptionColor,
     fontFamily: FontFamily.sora,
-    fontSize: AppSize.sp14,
+    fontSize: AppDimens.sp14,
     height: 1.17,
   ),
 
@@ -74,7 +74,7 @@ final TextTheme _textTheme = _darkThemeData.textTheme.copyWith(
     fontWeight: FontWeight.w700,
     color: _themeTextColors.textColor,
     fontFamily: FontFamily.sora,
-    fontSize: AppSize.sp15,
+    fontSize: AppDimens.sp15,
     letterSpacing: 1.0,
     height: 1.17,
   ),
@@ -82,14 +82,14 @@ final TextTheme _textTheme = _darkThemeData.textTheme.copyWith(
     fontWeight: FontWeight.w700,
     color: _themeTextColors.textColor,
     fontFamily: FontFamily.sora,
-    fontSize: AppSize.sp14,
+    fontSize: AppDimens.sp14,
     height: 1.17,
   ),
   bodySmall: TextStyle(
     fontWeight: FontWeight.w700,
     color: _themeTextColors.descriptionColor,
     fontFamily: FontFamily.sora,
-    fontSize: AppSize.sp13,
+    fontSize: AppDimens.sp13,
     height: 1.17,
   ),
 
@@ -98,14 +98,14 @@ final TextTheme _textTheme = _darkThemeData.textTheme.copyWith(
     fontWeight: FontWeight.w700,
     color: _themeTextColors.textColor,
     fontFamily: FontFamily.sora,
-    fontSize: AppSize.sp14,
+    fontSize: AppDimens.sp14,
     height: 1.17,
   ),
   labelMedium: TextStyle(
     fontWeight: FontWeight.w700,
     color: _themeTextColors.descriptionColor,
     fontFamily: FontFamily.sora,
-    fontSize: AppSize.sp12,
+    fontSize: AppDimens.sp12,
     height: 1.17,
   ),
 );
@@ -129,7 +129,7 @@ final ThemeData darkTheme = _darkThemeData.copyWith(
       fontWeight: FontWeight.w700,
       fontFamily: FontFamily.sora,
       color: _themeTextColors.textColor,
-      fontSize: AppSize.sp16,
+      fontSize: AppDimens.sp16,
     ),
   ),
 );

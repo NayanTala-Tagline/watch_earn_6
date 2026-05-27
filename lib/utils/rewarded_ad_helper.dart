@@ -1,9 +1,9 @@
 import 'package:ad_manager/ad_manager.dart';
 import 'package:flutter/material.dart';
-import '../widgets/loading_overlay/loading_overlay.dart';
+import '../widgets/loading_shade/loading_shade.dart';
 import '../widgets/rewarded_ad_bottom_sheet.dart';
 
-class RewardAdHelper {
+class RewardedAdHelper {
   static Future<void> showRewardAdWithBottomSheet({
     required BuildContext context,
     required AdData adData,
@@ -21,7 +21,7 @@ class RewardAdHelper {
 
     await showRewardAdBottomSheet(
       context: context,
-      onSupportUs: () {
+      onSupportTap: () {
         willShowAd = true;
       },
       onCancel: () {
@@ -43,7 +43,7 @@ class RewardAdHelper {
     double? recordedMicros;
 
     try {
-      LoadingOverlay.instance().show(context: context);
+      LoadingShade.instance().show(context: context);
 
       final rewardAdInstance = RewardedAdManager(
         adData: adData,
@@ -58,7 +58,7 @@ class RewardAdHelper {
       await rewardAdInstance.show(onUserEarnedReward: (_, _) {}, context: context);
       await Future.delayed(const Duration(milliseconds: 400));
     } finally {
-      LoadingOverlay.instance().hide();
+      LoadingShade.instance().hide();
     }
 
     return defaultCoins;

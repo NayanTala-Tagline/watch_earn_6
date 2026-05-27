@@ -12,7 +12,7 @@ class ThemeColors extends ThemeExtension<ThemeColors> {
   final Color primaryGradient1;
   final Color primaryGradient2;
 
-  // Secondary Gradients (Main accent gradient)
+  // Secondary Gradients (Main highlight gradient)
   final Color secondaryGradient1;
   final Color secondaryGradient2;
   final Color secondaryGradient3;
